@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4ee29a0e.chunk.css",
+    "main.js": "/static/js/main.b0514799.chunk.js",
+    "main.js.map": "/static/js/main.b0514799.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3d3944e2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3d3944e2.js.map",
+    "static/js/2.aecd791c.chunk.js": "/static/js/2.aecd791c.chunk.js",
+    "static/js/2.aecd791c.chunk.js.map": "/static/js/2.aecd791c.chunk.js.map",
+    "static/js/3.ad73841b.chunk.js": "/static/js/3.ad73841b.chunk.js",
+    "static/js/3.ad73841b.chunk.js.map": "/static/js/3.ad73841b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4ee29a0e.chunk.css.map": "/static/css/main.4ee29a0e.chunk.css.map",
+    "static/js/2.aecd791c.chunk.js.LICENSE.txt": "/static/js/2.aecd791c.chunk.js.LICENSE.txt",
+    "static/media/Thumb-da-listagem-padrão_RV 1.99bccdbf.png": "/static/media/Thumb-da-listagem-padrão_RV 1.99bccdbf.png",
+    "static/media/Thumb-da-listagem-padrão_semestral 1.513ee7b7.png": "/static/media/Thumb-da-listagem-padrão_semestral 1.513ee7b7.png",
+    "static/media/bookmark.2633d7d7.svg": "/static/media/bookmark.2633d7d7.svg",
+    "static/media/burger-menu.65c1458d.svg": "/static/media/burger-menu.65c1458d.svg",
+    "static/media/download-1.8ef0fc14.svg": "/static/media/download-1.8ef0fc14.svg",
+    "static/media/download-4.97f80e82.svg": "/static/media/download-4.97f80e82.svg",
+    "static/media/miniatura-luis-chapadeiro 1.5b2b5f45.png": "/static/media/miniatura-luis-chapadeiro 1.5b2b5f45.png",
+    "static/media/offset_comp_218310-1.34102a71.png": "/static/media/offset_comp_218310-1.34102a71.png",
+    "static/media/HeaderHomeEducacional.css": "/static/media/offset_comp_218310.3438079b.png",
+    "static/media/offset_comp_653229-1.f321324e.png": "/static/media/offset_comp_653229-1.f321324e.png",
+    "static/media/offset_comp_680339.34a262d2.png": "/static/media/offset_comp_680339.34a262d2.png",
+    "static/media/offset_comp_824604.1a9678c4.png": "/static/media/offset_comp_824604.1a9678c4.png",
+    "static/media/search.ae08f662.svg": "/static/media/search.ae08f662.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d3944e2.js",
+    "static/js/2.aecd791c.chunk.js",
+    "static/css/main.4ee29a0e.chunk.css",
+    "static/js/main.b0514799.chunk.js"
+  ]
+}

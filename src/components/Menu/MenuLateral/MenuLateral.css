@@ -1,0 +1,261 @@
+#navegacao {
+    width: auto;
+    height: 100vh;
+    background-color: #123a3a;
+}
+
+#nav {
+    width: auto;
+    height: 100vh;
+    padding: 8px 2px;
+    margin-top: -1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    z-index: 18;
+    background-color: #123a3a!important;
+}
+
+.loglogoNavLateral {
+    width: 200px!important;
+    height: auto;
+}
+
+@media(max-width: 768px) {
+    .loglogoNavLateral {
+        width: 130px!important;
+    }
+}
+
+.menu {
+    width: 270px;
+    height: 100vh;
+    padding: 10px 0 10px 0;
+    transition: '850ms';
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #123a3a!important;
+    position: absolute;
+    z-index: 32;
+    padding: 0;
+    left: -100%;
+}
+
+.menu.menuAtivo {
+    left: 0;
+    transition: left 1s;
+    background-color: #123a3a!important;
+}
+
+#nav-ul {
+    width: 270px!important;
+    height: 100vh!important;
+    position: fixed;
+    top:0;
+    z-index: 18;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #123a3a!important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#nav-itens {
+    width: 270px;
+    height: 100vh!important;
+    background-color: #123a3a!important;
+} 
+
+.ulNav {
+    width: 270px;
+    height: 100vh!important;
+    position: relative;
+    z-index: 18;
+    padding: 0 4px 30px 8px;
+    list-style: none;
+    text-align: left; 
+    background-color: #123a3a!important; 
+}
+
+.ulNav .bordaLinha, .ulNav .borda {
+    width: 90%;
+}
+
+.ulNav .bordaLinha {
+    border-color: #07887D;
+}
+
+.ulNav li {
+    width: 93%;
+    height: 35px;
+    padding: 5px 0;
+    display: flex;
+    vertical-align: middle;
+    background-color: #123a3a!important;
+}
+
+.topoLi {
+    margin: 0 0 5%  0!important;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.topoli:hover {
+    border: 0 none!important;
+}
+
+.ulNav li a:hover {
+    background:transparent;
+    opacity: 1;
+}
+
+.ulNav li a {
+    width: 90%!important;
+    height: 35px;
+    color: #FFF;
+    background:#123A3A;
+    opacity: 0.4;
+    text-decoration: none;
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center!important;
+    font-family: 'Lato', sans-serif;    
+    background-color: #123a3a!important;
+}
+
+.ulNav li a span {
+    width: 100%!important;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid transparent;
+    padding: 5px 0;
+}
+
+.ulNav li:hover {
+    border-right:4px solid #FFF;
+}
+
+.ulNav li a img {
+    height: auto;
+    margin: 0 0 0 10px;
+}
+
+.ulNav .icon {
+    margin-right: 30px;
+}
+
+
+
+
+
+.ulNav2 {
+    width: auto;
+    height: 100vh!important;
+    position: relative;
+    z-index: 18;
+    padding: 0 10px 30px 8px;
+    list-style: none;
+    text-align: left; 
+    background-color: #123a3a!important;  
+}
+
+.ulNav2 .bordaLinha, .ulNav2 .borda {
+    width: 90%;
+}
+
+.ulNav2 .bordaLinha {
+    border-color: #07887D;
+}
+
+.ulNav2 li {
+    width: 90%;
+    height: 35px;
+    padding: 5px 0;
+    display: flex;
+    vertical-align: middle;
+    background-color: #123a3a!important;
+}
+
+.ulNav2 li a {
+    width: 90%!important;
+    height: 35px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center!important;
+    font-family: 'Lato', sans-serif;    
+    background-color: #123a3a!important;
+}
+
+.ulNav2 li a span {
+    width: 100%!important;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid transparent;
+    padding: 5px 0;
+}
+
+.ulNav2 li a img {
+    height: auto;
+    margin: 0 0 0 10px;
+}
+
+.ulNav2 .icon {
+    margin-right: 30px;
+}
+
+
+
+
+
+.botaoVoltar {
+    width: 15px!important;
+    height: auto!important;
+    margin: 0 0 0 10px!important;
+}
+
+.topoImagem {
+    width: 90%!important;
+}
+
+.textoSeguindo {
+    font-weight: 700;
+    font-size: 1.3em!important;
+    margin-left: 5%;
+}
+.coluna {
+    margin-left: 19%;
+    height: 30px;
+    background:transparent!important;
+    opacity: 1!important;
+}
+
+.linhaBorda, .linhaBorda:hover {
+    border: 0 none!important;
+}
+
+.coluna .icon2 {
+    width: auto!important;
+    height: 30px!important;
+    margin-right: 10px!important;
+}
+
+.alinharTopo {
+    margin-top: 28px!important;
+}

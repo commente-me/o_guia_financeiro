@@ -1,0 +1,139 @@
+#leiaTambem {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Botão do Slide */
+#leiaTambem .sc-bdnxRM {
+    background-color: #F2F5F0!important;
+}
+
+.leiaTambem {
+    width: 380px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    margin: 10px 6%;
+    padding: 2% 1%;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+.leiaTambem:hover {
+    cursor: pointer;
+    width: 400px;
+    margin: 5px;
+    position: absolute;
+    z-index: 50;
+    transition: width 0.8s;
+}
+
+@media(max-width: 580px) {
+    .leiaTambem {
+        width: 300px;
+        height: 180px;
+    }
+}
+
+.leiaTambemCol01 {
+    width: 98%;
+    height: auto;
+    padding: 0 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.leiaTambemImagem {
+    width: 30%;
+    margin: 0 10px;
+    height: auto;
+}
+
+.leiaTambemImagem img {
+    width: 70px;
+    height: auto;
+}
+
+.leiaTambemDados {
+    width: 90%;
+    height: auto;
+    padding: 2% 0;
+}
+
+.leiaTambemDados h5{
+    width: 90%;
+    font-size: 1em;
+    font-family:"aktiv-grotesk";
+}
+
+.leiaTambemDados h6{
+    width: 200px!important;
+    font-size: 0.8em;
+    font-family: 'Lato', sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}
+
+.leiaTambemOpcoes{
+    width: 90%;
+    height: auto;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leiaTambemOpcao {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leiaTambemOpcao img {
+    width: 25px;
+    height: auto;
+}
+
+.leiaTambemFoto {
+    width: 100%;
+    height: auto;
+    padding: 2% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.leiaTambemFoto img {
+    width: 35px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.leiaTambemDados {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Botão do Slide */
+.ehkxHv{    
+    background-color: transparent!important;
+    box-shadow: 0 0 2px 0px transparent!important;
+}

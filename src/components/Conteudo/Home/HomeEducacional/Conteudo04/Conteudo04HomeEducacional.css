@@ -1,0 +1,37 @@
+#conteudo04 {
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #103030;
+    padding: 2% 1%;
+}
+
+#titulo-playList {
+    width: 95%;
+    height: auto;
+}
+
+#titulo04 h2 {
+    width: 100%;
+    color: #078882;
+    font-size: 1.5em;
+    margin-left: 8%;
+    font-family:"aktiv-grotesk";
+}
+
+#titulo-playList h5 {
+    color: #FFF;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 5px 0;
+    font-family:"aktiv-grotesk";
+}
+
+@media(max-width: 991px) {
+    #titulo-playList {
+        text-align: center;
+    }
+}

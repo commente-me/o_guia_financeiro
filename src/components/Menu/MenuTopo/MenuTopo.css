@@ -1,0 +1,186 @@
+#nav-topo {
+    width: 100%;
+    height: 55px;
+    background-color: #103030;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+#div-nav-topo {
+    width: auto!important;
+    height: auto;
+    display: flex!important;
+    flex-direction: row;
+    align-content: flex-end!important;
+    align-items: center;
+}
+
+.div-topo {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    align-items: center;
+}
+
+@media(max-width: 768px) {
+    .div-topo {
+        width: 150px;
+    }
+}
+
+.div-topo-opcao {
+    width: 250px;
+    height: 100vh;
+    position: absolute;
+    top: 55px;
+    right: 0;
+    z-index: 30;
+    padding: 2%;
+    display: none;
+    background-color: #000;
+    overflow-y: scroll;
+    overflow-x: hidden; 
+}
+
+.div-topo-opcao.opcaoAtiva {
+    display: block;
+    background-color: #000;
+}
+
+.opcaoAtiva a {
+    color: #FFF;
+    text-decoration: none;
+    z-index: 35;
+}
+
+.linhaDados {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: scroll;
+    padding-bottom: 20px;
+    background-color: #103030;
+}
+.textoLink {
+    width: auto!important;
+    margin: 0 10px
+}
+
+.opcaoAtiva a h4 {
+    color: #068E87!important;
+    font-weight: 700!important;
+    font-size: 1.5em!important;
+    font-family:"aktiv-grotesk";
+    margin: 20px 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #123A3A;
+    height: 6px;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background: #07887D;
+    left:0;
+}
+
+.opcaoAtiva a h5 {
+    color: #FFF!important;
+    font-size: 1em!important;    
+}
+
+.opcaoAtiva a h6 {
+    color: #FFF!important;
+    font-size: 0.8em!important;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin-left: 5px;
+}
+
+@media(max-width: 768px) {
+    .logo {
+        width: 150px;
+    } 
+}
+
+.div-topo img {
+    width: 28px;
+    height: auto;
+    margin: 0 5px;
+}
+
+.div-topo-ativo {
+    top: 25%;
+}
+
+@media(max-width: 768px) {
+    .div-topo-ativo, .div-topo {
+        right: 0;
+    }
+}
+
+#nav-topo span {  /* Não há Logo */
+    color: #FFF;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+#botao-opcoes {
+    width: 150px;
+    height: 50px;
+    padding: 2px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #000;;
+}
+
+@media(max-width: 768px) {
+    #botao-opcoes {
+        width: 5px;
+        position: relative;
+        right: 0;
+    }
+    #botao-opcoes img {
+        margin-left: -10px;
+    }
+    #botao-opcoes h5 {
+        display: none;
+    }
+}
+
+#botao-opcoes a {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+#botao-opcoes a img {
+    width: 18px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#botao-opcoes a h5 {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
