@@ -1,0 +1,235 @@
+
+.menuTopoDados {
+    width: auto!important;
+    height: 100vh!important;
+    background-color: #067C4E!important;
+    z-index: 150;
+    padding-bottom: 20px!important;
+    transition: 5s!important;
+    -o-transition: 5s!important;
+    -moz-transition: 5s!important;
+    -webkit-transition: 5s!important;    
+}
+
+.menuAtiva {
+    width: auto!important;
+    height: auto;
+    background-color: #000!important; 
+}
+
+.div-topo-opcao {
+    width: 210px!important;
+    height: 70vh!important;
+    margin-top: 55px;
+    z-index: 30;
+    padding: 0!important;
+    display: none;     
+    background-color: #000;    
+    overflow-y: scroll!important;
+    overflow-x: hidden!important;
+}
+
+@media(max-width: 768px) {
+    .div-topo-opcao.opcaoAtiva {
+        position: absolute!important;
+        right: 0;
+    }
+}
+
+.div-topo-opcao.opcaoAtiva {
+    width: 210px;
+    height: 100%;
+    padding: 20px!important;
+    display: block; 
+    position: relative;
+    right: 0;
+    background-color: #000;
+    transition: max-width 4s ease-in-out;
+}
+
+.opcaoAtiva a {
+    color: #FFF;
+    text-decoration: none;
+    z-index: 35;
+}
+
+.linhaDados {
+    width: 100%!important;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 20px;
+    background-color: #133A3B;
+}
+.textoLink {
+    width: auto!important;
+    margin: 0 10px;
+}
+
+.centralizarTexto {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.centralizarTexto img {
+    width: 14px;
+    height: 14px;
+    margin: 0 4px;
+}
+
+.opcaoAtiva .textoLink h4 {
+    color: #068E87!important;
+    font-size: 18px!important;
+    font-family:"aktiv-grotesk-extended";
+    margin: 20px 0;
+}
+
+.botaoNoticias {
+    width: 90%!important;
+    height: auto;
+    padding: 5px 10px;
+    border: 1px solid #068E87;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botaoNoticias a {
+    font-size: 16px;
+    font-family:"aktiv-grotesk-extended";
+    Line-height: 20.48px;
+}
+
+.botaoNoticias img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.opcaoAtiva .textoLink h6 {
+    color: #FFF!important;
+    font-weight: 400;
+    font-size: 14px!important;
+    margin-top: 10px;
+}
+
+#botao-opcoes a {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+#botao-opcoes a img {
+    width: 18px!important;
+    height: auto;
+    margin-right: 14px;
+}
+
+#botao-opcoes a h5 {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+#botao-opcoes {
+    width: 200px;
+    height: 50px;
+    padding: 2px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #000000;
+    position: absolute!important;
+    top: 0!important;
+    right: 0!important;
+    font-family: "aktiv-grotesk-extended";
+}
+
+@media(max-width: 768px) {
+    #botao-opcoes {
+        width: 5px!important;
+    }
+    #botao-opcoes img {
+        margin-left: -10px;
+    }
+    #botao-opcoes h5 {
+        display: none;
+    }
+}
+
+.divTopo {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 19%;
+}
+
+.divTopo a img {
+    width: 20px!important;
+    height: 20px!important;
+    margin: 0 10px!important;
+}
+
+.contadorSino {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.contador {
+    width: 3px!important;
+    height: 3px!important;
+    padding: 5px!important;
+    font-size: 10px;
+    font-weight: 700;
+    font-family:"aktiv-grotesk-extended";
+    line-height: 12.24px;
+    position: absolute!important;
+    left: 23px;
+    top: -5px;
+    z-index: 20!important;
+    border: 1px solid #C96E2B;
+    border-top-left-radius: 50%!important;
+    border-top-right-radius: 50%!important;
+    border-bottom-left-radius: 50%!important;
+    border-bottom-right-radius: 50%!important;
+    background-color: #C96E2B;
+    color: #FFF;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+
+.selectNoticias, .selectNoticias:focus {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: auto;
+    background: transparent url('../../../imagens//Home/HomeEducacional/arrow.svg') no-repeat;
+    color: #FFF;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 0 none;
+    display: flex!important;
+    justify-content: center!important;
+    font-size: 18px;
+    padding: 5px 0;
+}
+

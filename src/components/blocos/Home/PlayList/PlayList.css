@@ -1,0 +1,98 @@
+
+#playList-conteudo {
+    width: 96%;
+    height: 100%;
+    margin: 1% 2%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#playList {
+    width: 95%;
+    height: 100%;
+    padding: 1% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative!important;
+    z-index: 150!important;
+}
+
+#div-playList {
+    width: 98%;
+    height: 350px;
+    margin: 5px;
+    padding: 3px 0;
+    background-position-x: center;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-position-x: center!important;
+    background-position-y: center!important;
+    display: flex!important;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#div-playList:hover {
+    cursor: pointer;
+}
+
+#playList-icons {
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#playList-icons img {
+    width: 20px;
+    height: auto;
+    margin: 5px 0!important;
+}
+
+#playList-texto {
+    width: 95%;
+    height: auto;
+    padding: 0 5%;
+}
+
+#playListestrelas {
+    width: auto;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#playListestrelas img{
+    width: 10px;
+    height: auto;
+    margin: 0 0.3px!important; 
+}
+
+#playListestrelas .imgEstrela {
+    width: 10px;
+    height: auto;
+    margin: 0 2px!important; 
+}
+
+#playList-titulo {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#playList-titulo h5 {
+    font-size: 18px;
+    line-height: 22,48px;
+    color: #FFF;   
+    font-family:"aktiv-grotesk-extended"; 
+}
