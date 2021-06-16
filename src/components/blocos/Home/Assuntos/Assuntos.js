@@ -15,12 +15,7 @@ const Assuntos = () => {
                         <div className="assuntos">
 
                             <div key={index} className="assuntosDados">
-                                <div id="assunto-banner" style={{ background: `linear-gradient( 180deg,
-                                    rgba(0,0,0, 0.8),
-                                    rgba(0,0,0, 0.2),
-                                    rgba(0,0,0, 0.2),
-                                    rgba(0,0,0, 0.8)
-                                  ),url(${item.imagem})` }}>
+                                <div id="assunto-banner" style={{ background: `url(${item.imagem})` }}>
                                     <img src={item.icon1} alt="" />
                                 </div>
                                 <div id="assunto-info">

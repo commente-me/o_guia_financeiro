@@ -38,3 +38,18 @@
     margin-left: 2%;
 }
 
+.playListEpisodios .rec-arrow-left {
+    background: linear-gradient( to left,
+    rgba(16,48,48, 0) 0%,
+    rgba(16,48,48, 0) 0%,
+    rgba(16,48,48, 0.2) 100%)!important; 
+    color: #000!important;
+}
+
+.playListEpisodios .rec-arrow-right {   
+    background: linear-gradient( to right,
+    rgba(16,48,48, 0) 0%,
+    rgba(16,48,48, 0) 0%,
+    rgba(16,48,48, 0.2) 100%)!important;
+    color: #000!important;
+} 

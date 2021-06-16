@@ -8,6 +8,7 @@ const Conteudo02HomeEducacional = () => {
         <div className="conteudo">
             <div id="titulo">
                 <h1>Explore outros conteúdos</h1>
+                <br/>
                 <h2>Mercado à vista (9 séries)</h2>
             </div>
             <br />

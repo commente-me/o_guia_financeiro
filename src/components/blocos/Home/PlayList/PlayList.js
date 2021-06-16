@@ -15,7 +15,7 @@ const PlayList = () => {
                                 rgba(0,0,0, 0.8),
                                 rgba(0,0,0, 0.2),
                                 rgba(0,0,0, 0.2),
-                                rgba(0,0,0, 0.8) 
+                                rgba(0,0,0, 0.9) 
                               ),url(${item.imagem})`}}>
                                 <div id="playList-icons">
                                     <img src={item.icon1} alt="" />

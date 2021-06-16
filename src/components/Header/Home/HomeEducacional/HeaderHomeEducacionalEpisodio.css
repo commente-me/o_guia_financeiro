@@ -6,11 +6,8 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    background: linear-gradient( 180deg,
-    rgba(0,0,0, 1),
-    rgba(0,0,0, 0.2),
-    rgba(0,0,0, 1)
-  ),url('../../../../imagens/Home/HomeEducacional/offset_comp_218310.png');
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%)
+    ,url('../../../../imagens/Home/HomeEducacional/offset_comp_218310.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;

@@ -1,7 +1,7 @@
 .conteudo {
     width: 100%;
     height: auto;
-    padding: 3% 0;
+    padding: 0.5% 0;
     background-color: #000;
 }
 
@@ -15,8 +15,8 @@
 #titulo {
     width: 95%;
     height: auto;
-    padding: 2%;
-}
+    padding: 0 2% 20px 2%;
+}px
 
 #titulo h1 {
     color: #068E87;
@@ -46,7 +46,7 @@
 #titulo05 {
     width: 95%;
     height: auto;
-    padding: 2%;
+    padding: 0 2% 20px 2%;
 }
 
 #titulo05 h1 {

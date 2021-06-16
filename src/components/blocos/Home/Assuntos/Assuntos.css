@@ -1,29 +1,29 @@
 #assuntos {
-    width: 96%!important;
+    width: 97%!important;
     height: auto!important;
-    margin: 0.5% 3% 0 1%;
+    margin: 0 3% 0 1%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     background-color: #103030;
 }
 
 .assuntos {
-    width: 98%!important;
+    width: 100%!important;
     height: 100%!important;
     border: 1px solid transparent!important;
 }
 
 .assuntosDados {
-    width: 95%;
+    width: 94%;
     height: 100%!important;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     margin: 0 5px;
-    border-top-left-radius: 10px!important; 
-    border-top-right-radius: 10px!important;
+    border-top-left-radius: 8px!important; 
+    border-top-right-radius: 8px!important;
 }
 
 .assuntosDados:hover {
@@ -34,8 +34,8 @@
 }
 
 #assunto-banner {
-    width: 96.5%;
-    height: 160px;
+    width: 96%;
+    height: 190px;
     padding: 2%;
     display: flex;
     flex-direction: column;
@@ -46,27 +46,27 @@
     background-size: cover!important;
     background-position-x: center;
     background-position-y: center;
-    border-top-left-radius: 15px!important; 
-    border-top-right-radius: 15px!important;
+    border-top-left-radius: 8px!important; 
+    border-top-right-radius: 8px!important;
 }
 
 #assunto-info {
     width: 90%!important;
-    height: 210px;
+    height: 200px;
     background: #FFF;
     padding: 5%!important;
     position: relative;
     z-index: 99!important;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: flex-start;
-    border-bottom-left-radius: 15px!important;
-    border-bottom-right-radius: 15px!important;
+    border-bottom-left-radius: 8px!important;
+    border-bottom-right-radius: 8px!important;
 }
 
 #assunto-info h5 {
-    width: 80%;
+    width: 100%;
     font-size: 16px;
     line-height: 23,04px;
     margin-bottom: 10px;
@@ -75,7 +75,7 @@
 }
 
 #assunto-info h6 {
-    width: 80%;    
+    width: 100%;    
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -87,7 +87,7 @@
 
 #assunto-identifica {
     width: 100%;
-    height: auto!important;
+    height: 80px!important;
     display: flex!important;
     flex-direction: row!important;
     justify-content: flex-start;
@@ -110,11 +110,11 @@
 }
 
 #assunto-opcoes {
-    width: 90%;
-    height: auto;
+    width: 100%;
+    height: 25px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -144,34 +144,35 @@
     margin: 0 8px!important;
 }
 
-#assuntos .rec-arrow-left {
+#assuntos .rec-arrow-left[disabled="true"] {
     background: linear-gradient( to left,
     rgba(16,48,48, 0) 0%,
     rgba(16,48,48, 0) 0%,
-    rgba(16,48,48, 0.2) 100%)!important; 
-  position: absolute!important;
-  right: 15px!important;
-  color: #000!important;
+    rgba(16,48,48, 0.6) 100%)!important; 
+    color: #000!important;
 }
 
-#assuntos .rec-arrow-right {   
+#assuntos .rec-arrow-right[disabled="true"] {   
     background: linear-gradient( to right,
     rgba(16,48,48, 0) 0%,
     rgba(16,48,48, 0) 0%,
-    rgba(16,48,48, 0.2) 100%)!important;
-    position: absolute!important;
-  right: 15px!important;
-  color: #000!important;
+    rgba(16,48,48, 0.6) 100%)!important;
+    color: #000!important;
 } 
 
-#assuntos .rec-swipable {
-    position: relative!important;
-    z-index: 99!important;
-    background-color: transparent!important;
-
+#assuntos .rec-arrow-right[disabled="true"]:hover {      
+    color: #000!important;
+  
 }
 
-#assuntos .jCKguF {
-  position: relative!important;
-  z-index: 10!important;
+#assuntos .rec-arrow-left[disabled="true"]:hover {  
+  color: #000!important;
+}
+
+#assuntos .rec-arrow-right:hover {      
+  background-color: transparent!important;
+}
+
+#assuntos .rec-arrow-left:hover {  
+  background-color: transparent!important;
 }

@@ -9,6 +9,7 @@ import MenuDados from '../../../components/Menu/MenuDados/MenuDados';
 import Footer from '../../../components/Footer/Home/HomeEducacional/Footer';
 import Assuntos from '../../../components/blocos/Home/Assuntos/Assuntos';
 import PlayList from '../../../components/blocos/Home/PlayList/PlayList';
+import MenuExpandido from '../../../components/Menu/MenuExpandido/MenuExpandido';
 
 const HomeEducacionalEpisodio = () => {
     return (
@@ -16,6 +17,7 @@ const HomeEducacionalEpisodio = () => {
             <MenuLateral />
             <div id="homeEducacionalPagina">
                 <MenuTopo />
+                <MenuExpandido/>
                 <HeaderHomeEducacionalEpisodio />
                 <Conteudo07HomeEducacionalEpisodio/>
                 <div id="playListEpisodios01" className="playListEpisodios">

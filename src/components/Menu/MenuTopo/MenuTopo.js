@@ -13,7 +13,7 @@ const MenuTopo = () => {
             <div className="dadosUsuario">
                 <h6>Terça-feira - 20/04/2021</h6>
                 <h3>Bom dia Fulano!</h3>
-            </div>           
+            </div>               
         </nav>
     );
 }

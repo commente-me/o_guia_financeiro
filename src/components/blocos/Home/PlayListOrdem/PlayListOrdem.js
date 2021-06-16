@@ -15,10 +15,10 @@ const PlayListOrdem = () => {
                         return (
                             <div key={index} id="playListOrdem" style={{
                                 background: `linear-gradient( 180deg,
-                                    rgba(0,0,0, 0.4),
+                                    rgba(0,0,0, 0.7),
                                     rgba(0,0,0, 0.2),
                                     rgba(0,0,0, 0.2),
-                                    rgba(0,0,0, 0.4)
+                                    rgba(0,0,0, 0.7)
                                   ),url(${item.imagem})`
                             }}>
                                 <div id="div-icons">

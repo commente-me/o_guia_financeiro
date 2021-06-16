@@ -6,11 +6,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    background: linear-gradient( 180deg,
-    rgba(0,0,0, 1),
-    rgba(0,0,0, 0.2),
-    rgba(0,0,0, 1)
-  ),url('../../../../imagens/Home/HomeEducacional/offset_comp_218310.png');
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%)
+    ,url('../../../../imagens/Home/HomeEducacional/offset_comp_218310.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -79,6 +76,7 @@
     font-size: 16px;
     line-height: 20.48px;
     font-weight: 700;
+    font-family:"aktiv-grotesk-extended";
     color: #FFF;
     border: 3px solid #123a3a;
     border-radius: 10px;

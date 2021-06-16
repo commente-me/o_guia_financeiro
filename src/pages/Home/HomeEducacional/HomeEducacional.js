@@ -13,6 +13,7 @@ import '../../../botaoCarrossel-css/botaoCarrossel.css';
 import MenuDados from '../../../components/Menu/MenuDados/MenuDados';
 import Footer from '../../../components/Footer/Home/HomeEducacional/Footer';
 import '../../../botaoCarrossel-css/botaoCarrossel.css';
+import MenuExpandido from '../../../components/Menu/MenuExpandido/MenuExpandido';
 
 const HomeEducacional = () => {
     return (
@@ -20,6 +21,7 @@ const HomeEducacional = () => {
             <MenuLateral />
             <div id="homeEducacionalPagina">
                 <MenuTopo />
+                <MenuExpandido/>
                 <HeaderHomeEducacional />
                 <Conteudo01HomeEducacional />
                 <Conteudo02HomeEducacional />
@@ -29,7 +31,7 @@ const HomeEducacional = () => {
                 <Conteudo06HomeEducacional />
                 <Footer />
             </div>
-            <MenuDados />
+            <MenuDados/>
         </div>
     );
 }
