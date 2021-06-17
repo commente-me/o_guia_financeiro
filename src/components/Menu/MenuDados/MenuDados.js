@@ -18,8 +18,7 @@ const MenuDados = () => {
     const [opcoes1, setOpcoes1] = useState(false);
     const [buscar, setBuscar] = useState(false);
     const [buscarIcon, setBuscarIcon] = useState(SearchImg);
-    const [botaoFiqueAtualizado, setBotaoFiqueAtualizado] = useState(false);
-
+    
     const showOpcoes = () => {
         setOpcoes(!opcoes);
         setOpcoes1(!opcoes1);
@@ -31,12 +30,7 @@ const MenuDados = () => {
             setBuscarIcon("");
         } else {
             setBuscarIcon(SearchImg);
-        }
-        if(botaoFiqueAtualizado) {
-            setBotaoFiqueAtualizado(!botaoFiqueAtualizado);
-        } else {
-            setBotaoFiqueAtualizado(botaoFiqueAtualizado);
-        }
+        }        
     } 
     
     return (
