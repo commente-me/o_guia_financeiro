@@ -16,7 +16,7 @@
     margin-top: 60px;
     padding: 0 20px;
     z-index: 400; 
-    position: fixed;
+    position: relative;
     top: 0px!important;
     right: 0;
     overflow-y: scroll!important;
@@ -41,7 +41,7 @@
     z-index: 400;
     padding: 5px 15px!important;
     display: none; 
-    position: absolute;    
+    position: relative;    
     background-color: #000; 
     right: 0!important; 
     top: 0!important; 
@@ -61,7 +61,7 @@
     height: 80%!important;
     padding: 5px!important;
     display: inline-block; 
-    position: absolute;
+    position: relative;
     top: 0!important;
     right: 0!important;
     background-color: #000;
