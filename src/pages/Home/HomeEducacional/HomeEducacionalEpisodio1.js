@@ -21,20 +21,18 @@ const HomeEducacionalEpisodio = () => {
                 <HeaderHomeEducacionalEpisodio1 />
                 <Conteudo07HomeEducacionalEpisodio/>
                 <div id="playListEpisodios01" className="playListEpisodios">
-                    <br/>
                     <h4>Séries relacionadas</h4>
                     <br/>
-                    <PlayList/>
                 </div>
-                
+                <PlayList/>
                 <div id="playListEpisodios02" className="playListEpisodios">
-                    <br/><br/>
+                    <br/>
                     <h4>Assuntos relacionados</h4>
-                    <br/>
-                    <Assuntos/>
-                    <br/>
-                    <br/>
+                    <br/>                    
                 </div>
+                <Assuntos/>
+                    <br/>
+                    <br/>
                 <Footer />
             </div>
             <MenuDados />

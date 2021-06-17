@@ -1,17 +1,44 @@
 #headerHomeEducacionaEpsodio {
-    width: 96%;
+    width: 90%;
     height: 400px;
-    padding: 2% 2%;
+    padding: 2% 4%!important;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%)
-    ,url('../../../../imagens/Home/HomeEducacional/offset_comp_218310.png');
+    background: linear-gradient( 180deg,
+    rgba(0,0,0, 1),
+    rgba(0,0,0, 0.2),
+    rgba(0,0,0, 1)
+  ),url('../../../../imagens/Home/HomeEducacional/offset_comp_218310.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
+}
+
+@media(max-width: 991px) {
+    #headerHomeEducacionaEpsodio {
+        height: 600px!important;
+    }
+}
+
+@media(max-width: 991px) {
+    #div-avaliacaoEpsodio h5 {
+        margin-bottom: 10px;
+    }
+    #div-avaliacaoEpsodio {
+        width: 100%"important";
+        height: auto!important;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    #header-tempoEpsodio {
+        width: 100%!important;
+        display: flex;
+        justify-content: flex-start!important;
+        margin-top: 10px;
+    }
 }
 
 #headerHomeEducacionaEpsodio h1 {
@@ -88,7 +115,7 @@
 }
 
 #div-avaliacaoEpsodio {
-    width: 70%;
+    width: 70%!important;
     height: 40px;
     display: flex;
     flex-direction: row;
@@ -96,20 +123,13 @@
     align-items: center;
 }
 
-@media(max-width: 991px) {
-    #div-avaliacaoEpsodio {
-        flex-wrap: wrap;
-        width: 100%;
-    }
-}
-
-#div-avaliacao img {
+#div-avaliacaoEpsodio img {
     width: 14px!important;
     height: 14px!important;
     margin: 0 2px;
 }
 
-#div-avaliacao .imgEstrela {
+#div-avaliacaoEpsodio .imgEstrela {
     width: 14px!important;
     height: 14px!important;
 }

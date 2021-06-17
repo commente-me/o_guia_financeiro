@@ -10,40 +10,47 @@ import ArrowImg from '../../../imagens/Home/HomeEducacional/arrow.svg';
 import { Link } from 'react-router-dom';
 import './MenuDados.css';
 import MenuExpandido from "../MenuExpandido/MenuExpandido";
+import '../../../Scroll/Scroll.css';
 
 const MenuDados = () => {
 
     const [opcoes, setOpcoes] = useState(false);
     const [opcoes1, setOpcoes1] = useState(false);
-    const [voltar, setVoltar] = useState(SetaImagem);
     const [buscar, setBuscar] = useState(false);
+    const [buscarIcon, setBuscarIcon] = useState(SearchImg);
+    const [botaoFiqueAtualizado, setBotaoFiqueAtualizado] = useState(false);
 
     const showOpcoes = () => {
-        if (!voltar) {
-            setVoltar(SetaImagem);
-        } else {
-            setVoltar(SetaImagem);
-        }
         setOpcoes(!opcoes);
         setOpcoes1(!opcoes1);
     }
 
     const showInputBusca = () => {
         setBuscar(!buscar);
-    }
-
+        if(buscarIcon) {
+            setBuscarIcon("");
+        } else {
+            setBuscarIcon(SearchImg);
+        }
+        if(botaoFiqueAtualizado) {
+            setBotaoFiqueAtualizado(!botaoFiqueAtualizado);
+        } else {
+            setBotaoFiqueAtualizado(botaoFiqueAtualizado);
+        }
+    } 
+    
     return (
-        <div className={opcoes1 ? "menuTopoDados menuAtiva" : "menuTopoDados"}>            
+        <div className={opcoes1 ? "menuTopoDados menuAtiva" : "menuTopoDados"}>
             <div id="divTopoMenu">
                 <div className="divTopo">
-                    <div className="alinhaInput">
+                    <div className={buscar ? "alinhaInput buscarAtivo" : "alinhaInput"}>
                         <input type="text" name="busca" placeholder="Digite a sua busca" />
                         <Link to="">
-                            <img src={Search02Img} alt="Buscar" />
+                            <img className="iconBucaNoInput" src={Search02Img} alt="Buscar" />
                         </Link>
                     </div>
                     <Link to="" onClick={showInputBusca}>
-                        <img src={SearchImg} alt="Buscar" />
+                        <h4 style={{background: `url(${buscarIcon})` }} className="iconBusca" src={buscarIcon}></h4>
                     </Link>
                     <Link to="#">
                         <img src={BookmarkImg} alt="" />
@@ -56,15 +63,21 @@ const MenuDados = () => {
                         <img src={UsuarioImg} alt="" />
                     </Link>
                 </div>
-            </div>            
-            <MenuExpandido/>
-            <div id="botao-opcoes">
+            </div>
+            <MenuExpandido />
+            <div id="botao-opcoes" >
                 <Link to="#" onClick={showOpcoes}>
-                    <img src={voltar} alt="" />
+                    <img src={SetaImagem} alt="" />
                     <h5>Fique<br />Atualizado</h5>
                 </Link>
             </div>
             <div className={opcoes ? "div-topo-opcao opcaoAtiva" : "div-topo-opcao"}>
+                <div id="botao-opcoes2" >
+                    <Link to="#" onClick={showOpcoes}>
+                        <img src={SetaImagem} alt="" />
+                        <h5>Fique<br />Atualizado</h5>
+                    </Link>
+                </div>
                 <div className="linhaDados">
                     <Link className="textoLink" to="#">
                         <div className="centralizarTexto">

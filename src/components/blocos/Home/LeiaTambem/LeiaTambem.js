@@ -12,37 +12,33 @@ const LeiaTambém = () => {
             <Carousel itemsToShow={3} breakPoints={BreakPointsData} pagination={false}>
                 {LeiaTambemData.map((item, index) => {
                    return (
-                        <div key={index} className="leiaTambem">
-                            <div className="leiaTambemCol01">
-                                {/* <div className="leiaTambemImagem">
-                                    <img src={item.imagem} alt="" />
-                                </div> */}
-                                <div className="leiaTambemDados">
+                       <div className="leiaTambem">
+                            <div key={index} className="leiaTambemDados">
+                                <div id="leiaTambem-info">
                                     <h5>{item.titulo}</h5>
-                                    <br />
                                     <h6>{item.descricao}</h6>
-                                    <div className="leiaTambemFoto">
+                                    <div id="leiaTambem-identifica">
                                         <img src={item.foto} alt="" />
-                                        <h6>{item.nome}</h6>
+                                        <h6>{item.nome}</h6>                                        
                                     </div>
-                                    <p>{item.fonte}</p>
-                                </div>
-                            </div>
-                            <div className="leiaTambemOpcoes">
-                                <div className="leiaTambemOpcao">
-                                    <img src={item.icon1} alt="" />
-                                    <h6>{item.textoIcon1}</h6>
-                                </div>
-                                <div className="leiaTambemOpcao">
-                                    <img src={item.icon2} alt="" />
-                                    <h6>{item.textoIcon2}</h6>
-                                </div>
-                                <div className="leiaTambemOpcao">
-                                    <img src={item.icon3} alt="" />
-                                    <h6>{item.textoIcon3} min</h6>
-                                </div>
-                                <div className="leiaTambemOpcao">
-                                    <img src={item.icon4} alt="" />
+                                    <div className="leiatanbemFonte"><p>{item.fonte}</p></div>
+                                    <div id="leiaTambem-opcoes">
+                                        <div className="assunto-opcao">
+                                            <img className="imagensSvgleiaTambem" src={item.icon1} alt="" />
+                                            <h6>{item.textoIcon1}</h6>
+                                        </div>
+                                        <div className="leiaTambem-opcao">
+                                            <img src={item.icon2} alt="" />
+                                            <h6>{item.textoIcon2}</h6>
+                                        </div>
+                                        <div className="leiaTambem-opcao">
+                                            <img className="imagensSvgAssunto" src={item.icon3} alt="" />
+                                            <h6>{item.textoIcon3} min</h6>
+                                        </div>
+                                        <div className="leiaTambem-opcao">
+                                            <img className="imagensSvgAssunto" src={item.icon4} alt="" />
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

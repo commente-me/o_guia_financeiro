@@ -1,159 +1,159 @@
 #leiaTambem {
-    width: 96%!important;
-    height: auto;
-    margin: 0 1%;
+    width: 100%!important;
+    height: auto!important;
+    position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.leiaTambem {
-    width: 98%!important;
-    height: 280px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #FFF;
-    margin: 0 5px;
-    padding: 5%;
-    border: 1px solid transparent;
-    border-radius: 8px;
-}
-
-.leiaTambem:hover {
-    cursor: pointer;
-}
-
-@media(max-width: 580px) {
-    .leiaTambem {
-        width: 300px;
-        height: 180px;
-    }
-}
-
-.leiaTambemCol01 {
-    width: 98%;
-    height: auto;
-    padding: 0 1%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #FFF;
-}
-
-.leiaTambemImagem {
-    width: 30%;
-    margin: 0 10px;
-    height: auto;
-}
-
-.leiaTambemImagem img {
-    width: 30px!important;
-    height: 30px!important;
-}
-
-.leiaTambemDados {
-    width: 90%;
-    height: auto;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.leiaTambemDados p{
-    width: 100%;
-    font-size: 12px!important;
-    font-weight: 400;
-    font-family:"Lato",sans-serif;
-    color: #068E87;
-}
-
-.leiaTambemDados h5{
-    width: 100%;
-    font-size: 1em;
-    font-family:"aktiv-grotesk-extended";
-    color: #133A3B;
-}
-
-.leiaTambemDados h6{
-    width: 100%;
-    font-size: 14px!important;
-    font-weight: 400;
-    line-height: 20px;
-    font-family: 'Lato', sans-serif; 
-    -webkit-box-orient: vertical;
-    margin-bottom: 10px;
-    color: #133A3B;
-}
-
-.leiaTambemOpcoes{
-    width: 100%;
-    height: 25px;
-    padding: 0 5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.leiaTambemOpcao {
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.leiaTambemOpcao h6 {
-    font-family: 'Lato', sans-serif; 
-    font-weight: 400;
-    font-size: 12px!important;
-    color: #068E87;
-    margin: 0 6px;
-}
-
-.leiaTambemOpcao img {
-    width: 15px;
-    height: auto;
-}
-
-.leiaTambemFoto {
-    width: 100%;
-    height: auto;
-    padding: 2% 0;
-    display: flex;
-    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
 }
 
-.leiaTambemFoto h6 {
-    color: #133A3B;
-    margin-top: 10px;
-}
-
-.leiaTambemFoto img {
-    width: 30px;
-    height: auto;
-    margin-right: 10px;
+.leiaTambem {
+    width: 100%!important;
+    height: 100%!important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative!important;
+    z-index: 150!important;
+    border: 1px solid transparent!important;
+    border-top-left-radius: 8px!important;
+    border-top-right-radius: 8px!important;
+    border-bottom-left-radius: 8px!important;
+    border-bottom-right-radius: 8px!important;
 }
 
 .leiaTambemDados {
-    width: 100%;
+    width: 94%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    border-top-left-radius: 8px!important;
+    border-top-right-radius: 8px!important;
+    border-bottom-left-radius: 8px!important;
+    border-bottom-right-radius: 8px!important;   
 }
 
- #leiaTambem .rec-arrow-left {
-  color: #000!important;
-  background: linear-gradient( to left,
+.leiaTambemDados:hover {
+    cursor: pointer;
+    position: relative;
+    z-index: 50;
+    transition: 0.6s;
+}
+
+.leiaTambemDados p {
+    font-family: "Lato",sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #068E87;
+}
+
+#leiaTambem-info {
+    width: 90%!important;
+    height: 290px!important;
+    background: #FFF;
+    padding: 5%!important;
+    position: relative;
+    z-index: 99!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top-left-radius: 8px!important;
+    border-top-right-radius: 8px!important;  
+}
+
+#leiaTambem-info h5 {
+    width: 100%;
+    font-size: 16px;
+    line-height: 23,04px;
+    margin-bottom: 10px;
+    font-family:"aktiv-grotesk-extended";
+    color: #133A3B;
+    padding-top: 15px;
+}
+
+#leiaTambem-info h6 {
+    width: 100%;    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    -webkit-box-orient: vertical;
+    font-family: 'Lato', sans-serif; 
+    margin-bottom: 10px;
+    color:#133A3B;
+}
+
+#leiaTambem-identifica {
+    width: 100%;
+    height: auto!important;
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: flex-start;
+    align-items: center!important;
+    margin-bottom: 10px;
+}
+
+#leiaTambem-identifica img {
+    width: 30px!important;
+    height: auto!important;
+    margin-right: 10px;
+}
+
+#leiaTambem-identifica h6 {
+    font-size: 14px;
+    font-family:"Lato",sans-serif;
+    margin-top: 10px;
+    color: #133A3B;
+    line-height: 20px;
+}
+
+#leiaTambem-opcoes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+.leiaTambem-opcao {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#leiaTambem-opcao img {
+    width: 25px!important;
+    height: 25px!important;
+}
+
+.imagensSvgleiaTambem {
+    width: 15px!important;
+    height: 15px!important;
+}
+
+.leiaTambem-opcao h6 {
+    font-size: 12px!important;
+    font-family: 'Lato', sans-serif;
+    color: #068E87!important;
+    margin: 0 8px!important;
+}
+
+#leiaTambem .rec-arrow-left {
+    background: linear-gradient( to left,
     rgba(16,48,48, 0) 0%,
     rgba(16,48,48, 0) 0%,
     rgba(16,48,48, 0.1) 100%)!important; 
+    left: 15px!important;  
+    height: 100%!important;
 }
 
 #leiaTambem .rec-arrow-right {   
@@ -161,5 +161,26 @@
     rgba(16,48,48, 0) 0%,
     rgba(16,48,48, 0) 0%,
     rgba(16,48,48, 0.1) 100%)!important;
-  color: #000!important;
+    right: 15px!important;
+    height: 100%!important;
 } 
+
+#leiaTambem .rec-arrow[disabled="true"] {
+    color: #000!important;
+}
+
+#leiaTambem .rec-arrow-right[disabled="true"]:hover {      
+    color: #000!important;  
+}
+
+#leiaTambem .rec-arrow-left[disabled="true"]:hover {  
+  color: #000!important;
+}
+
+#leiaTambem .rec-arrow-right:hover {      
+  background-color: transparent!important;
+}
+
+#leiaTambem .rec-arrow-left:hover {  
+  background-color: transparent!important;
+}

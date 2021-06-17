@@ -1,12 +1,12 @@
 #conteudo06 {
-    width: 98%;
+    width: 96%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     background-color: #F2F5F0;
-    padding: 0.5% 1%;
+    padding: 2%!important;
 }
 
 #titulo06 {

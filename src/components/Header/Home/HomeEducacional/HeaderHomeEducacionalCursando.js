@@ -13,7 +13,7 @@ const HeaderHomeEducacionalCursando = () => {
             <Link id="botaoComeceAqui" to="#">
                 Comece por Aqui:
             </Link>
-            <div>
+            <div className="dadosHeader">
                 <div id="header-tempo">
                     <img src={TempoImg} alt=""/>
                     <span>1:01min </span>

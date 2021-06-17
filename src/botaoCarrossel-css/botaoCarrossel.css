@@ -27,28 +27,28 @@
   z-index: 10!important;
 }
 
-.rec-arrow-right {   
+.rec-arrow-right {
+    border-bottom-right-radius: 8px!important;
+    border-top-right-radius: 8px!important;
     position: absolute!important;
-    right: 15px!important;
+    box-shadow: 0 0 0px 0px transparent!important;
+    border-radius: 8px!important;
+    border: 0!important;
+    z-index: 200!important;
+    border-bottom-right-radius: 8px!important;
+    border-top-right-radius: 8px!important;    
+}
+
+.rec-arrow-left {    
+    border-bottom-left-radius: 8px!important;
+    border-top-left-radius: 8px!important;
+    position: absolute!important;
     box-shadow: 0 0 0px 0px transparent!important;
     border-radius: 8px!important;
     border: 0!important;
     z-index: 200!important;
     border-bottom-right-radius: 8px!important;
     border-top-right-radius: 8px!important;
-    height: 100%!important;
-}
-
-.rec-arrow-left {    
-    position: absolute!important;
-    left: 15px!important;
-    box-shadow: 0 0 0px 0px transparent!important;
-    border-radius: 8px!important;
-    border: 0!important;
-    z-index: 200!important;
-    border-bottom-left-radius: 8px!important;
-    border-top-left-radius: 8px!important;
-    height: 100%!important;
 }
 
 .rec-arrow-right:hover {      

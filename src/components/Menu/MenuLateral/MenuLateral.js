@@ -9,10 +9,12 @@ import Icon4 from '../../../imagens/Home/HomeEducacional/noticiasoff.svg';
 import Icon5 from '../../../imagens/Home/HomeEducacional/mentoriaoff.svg';
 import Icon6 from '../../../imagens/Home/HomeEducacional/glossarioff.svg';
 import Icon7 from '../../../imagens/Home/HomeEducacional/configoff.svg';
+import Icon9 from '../../../imagens/Home/HomeEducacional/sino.svg';
 import Icon8 from '../../../imagens/Home/HomeEducacional/ajudaoff.svg';
 import Foto from '../../../imagens/Home/HomeEducacional/miniatura-luis-chapadeiro 1.png';
 import './MenuLateral.css';
 import { Link } from 'react-router-dom';
+import '../../../Scroll/Scroll.css';
 
 const Menu = () => {
 
@@ -24,13 +26,12 @@ const Menu = () => {
 
     return (
         <div id="navegacao">
+            <Link to="#" className="menuA">
+                <p className="contarNotificacoes01">4</p>
+                <img className="botaoMenu" src={MenuImagem} alt="menu" onClick={showNavegacao} />
+            </Link>
             <nav id="nav">
                 <ul className="ulNav2">
-                   
-                   <Link to="#" className="menuA">
-                        <img className="botaoMenu" src={MenuImagem} alt="menu" onClick={showNavegacao} />
-                    </Link>
-                   
                     <li className="liEspacoTrans alinharTopo li" >
                         <Link to="/">
                             <img className="bordaImg" src={Icon1} alt="" />
@@ -121,6 +122,14 @@ const Menu = () => {
                             <Link to="">
                                 <img className="icon bordaImg" src={Icon6} alt="" />
                                 <span className="borda">Glossário</span>
+                            </Link>
+                        </li>
+
+                        <li className="liEspaco">
+                            <Link to="">
+                                <p className="contarNotificacoes02">4</p>
+                                <img className="icon bordaImg" src={Icon9} alt="" />
+                                <span className="bordaLinha">Notificações (4)</span>
                             </Link>
                         </li>
 

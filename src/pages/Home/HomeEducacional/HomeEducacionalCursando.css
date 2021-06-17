@@ -9,7 +9,8 @@
 }
 
 #homeEducacionalPagina {
-    width: 100%;
+    width: 90%;
     flex: 1;
+    padding: 0 2%;
     background-color: #000;
 }

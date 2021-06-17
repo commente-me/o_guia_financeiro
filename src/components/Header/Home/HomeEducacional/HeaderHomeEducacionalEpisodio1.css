@@ -8,6 +8,27 @@
     align-items: flex-start;
 }
 
+@media(max-width: 991px) {
+    #headerHomeEducacional {
+        height: 500px!important;
+    }
+}
+
+@media(max-width: 991px) {
+    #div-avaliacao h5 {
+        margin-bottom: 10px;
+    }
+    #div-avaliacao {
+        width: 100%!important;
+        height: auto;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    #botaoComecar {
+        margin-bottom: 30px;
+    }
+}
+
 #headerEpsodio1 {
     width: 100%;
     height: auto;

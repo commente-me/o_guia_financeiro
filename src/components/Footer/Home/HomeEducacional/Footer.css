@@ -96,13 +96,26 @@
 }
 
 @media(max-width: 991px) {
-    .footerColuna01, .footerColuna02, .footerColunaApp, .footerColuna, .footerColunaLogo, .footer01, .footer02 {
+    .footerColuna01, .footerColuna02, .footerColuna, .footerColunaLogo, .footer01, .footer02 {
         flex-wrap: wrap;
+    } 
+    .footerColuna01, .footerColuna02, .footerColunaApp, .footerColuna, .footerColunaLogo, .footer01, .footer02 {
         height: 100%;
         margin: 2% 0;
         justify-content: center;
     } 
     .footerColuna02 p {
+        width: 40%;
         margin: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    .footerColuna01 {
+        order: 2;
+    }
+    .footerColuna02 {        
+        width: 100%;
+        order: 1;
+        justify-content: center;
     }
 }

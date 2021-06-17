@@ -1,17 +1,41 @@
 #headerHomeEducacional {
-    width: 96%;
+    width: 90%;
     height: 400px;
-    padding: 2% 2%;
+    padding: 2% 4%!important;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%)
-    ,url('../../../../imagens/Home/HomeEducacional/offset_comp_218310.png');
+    background: linear-gradient( 180deg,
+    rgba(0,0,0, 1),
+    rgba(0,0,0, 0.2),
+    rgba(0,0,0, 1)
+  ),url('../../../../imagens/Home/HomeEducacional/offset_comp_218310.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
+}
+
+@media(max-width: 991px) {
+    #headerHomeEducacional {
+        height: 500px!important;
+    }
+}
+
+@media(max-width: 991px) {
+    #div-avaliacao h5 {
+        margin-bottom: 10px;
+    }
+    #div-avaliacao {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    #botaoComecar {
+        margin-bottom: 30px;
+    }
 }
 
 #headerHomeEducacional h1 {
@@ -94,7 +118,7 @@
 }
 
 #div-avaliacao {
-    width: 100%;
+    width: 100%!important;
     height: 40px;
     display: flex;
     flex-direction: row;
