@@ -12,7 +12,7 @@ const HeaderHomeEducacionalEpisodio = () => {
     return (
         <header id="headerHomeEducacionaEpsodio" >
             <div>
-                <Link id="botaoVoltarHeader" to="#">
+                <Link id="botaoVoltarHeader" to="/">
                     <img src={VoltarImg} alt="" />
                     Voltar
                 </Link>
