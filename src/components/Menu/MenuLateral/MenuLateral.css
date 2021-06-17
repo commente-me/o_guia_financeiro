@@ -1,12 +1,12 @@
 #navegacao {
     width: auto;
-    height: 100%;
+    height: 100vh;
     background-color: #123a3a;
 }
 
 #nav {
     width: auto;
-    height: 100%;
+    height: 100vh;
     padding: 8px 2px;
     display: flex;
     flex-direction: column;
@@ -91,7 +91,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     background-color: #123a3a!important;
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
 }
 
@@ -138,7 +138,7 @@
 
 .ulNav li {
     width: 95%;
-    height: 35px;
+    height: 30px;
     padding: 5px 0;
     display: flex;
     vertical-align: middle;
@@ -164,7 +164,7 @@
 
 .ulNav li a {
     width: 100%!important;
-    height: 35px;
+    height: 30px;
     color: #FFF;
     background:#123A3A;
     opacity: 0.4;
@@ -182,7 +182,7 @@
 
 .ulNav li a span {
     width: 60%!important;
-    height: 35px;
+    height: 30px;
     display: flex!important;
     align-items: center!important;
     border-top: 1px solid transparent;
@@ -236,7 +236,7 @@
 
 .ulNav2 li {
     width: 99%;
-    height: 35px;
+    height: 30px;
     padding: 5px 0;
     display: flex;
     vertical-align: middle;
@@ -250,7 +250,7 @@
 
 .ulNav2 li a {
     width: 90%!important;
-    height: 35px;
+    height: 30px;
     color: #FFF;
     background:#123A3A;
     opacity: 0.4;
@@ -267,7 +267,7 @@
 
 .ulNav2 li a span {
     width: 30%!important;
-    height: 35px;
+    height: 30px;
     display: flex!important;
     align-items: center!important;
     border-top: 1px solid transparent;
@@ -302,6 +302,7 @@
     flex-direction: column;
     align-items: center;
     margin-right: 5px;
+    z-index: 300;
 }
 
 @media(max-width: 991px) {
@@ -345,10 +346,16 @@
 .coluna {
     width: 80%;
     margin-left: 19%;
-    height: 30px;
+    height: auto;
     background:transparent!important;
     opacity: 1!important;
+    margin-top: -40px;;
 }
+
+.coluna span {
+    height: 25px;
+}
+
 @media(max-width: 991px) {
     .coluna {
         margin-left: 10%;
@@ -361,6 +368,10 @@
     line-height: 18px!important;
 }
 
+.linhaBorda {
+    height: 23px!important;
+}
+
 .linhaBorda, .linhaBorda:hover {
     border: 0 none!important;
 }
@@ -368,7 +379,7 @@
 .coluna .icon2 {
     width: auto!important;
     height: 25px!important;
-    margin-right: 10px!important;
+    margin-right: 25px!important;
 }
 
 .alinharTopo {
@@ -381,7 +392,7 @@
     padding: 2px;
     font-size: 8px;
     font-family:"aktiv-grotesk-extended";
-    background-color: #DF9D73!important;
+    background-color: #C96E2B!important;
     border-radius: 8px;
     color: #FFF!important;
     display: flex;
@@ -396,4 +407,14 @@
 .contarNotificacoes02 {
     background-color: #DF9D73;
     color: #FFF;
+}
+
+.direcao1 {
+    position: relative;
+    right: 0;
+}
+
+.direcao2 {
+    position: relative;
+    right: 4px;
 }

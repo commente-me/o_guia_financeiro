@@ -1,5 +1,5 @@
 #headerHomeEducacional {
-    width: 90%;
+    width: 92%;
     height: 400px;
     padding: 2% 4%!important;
     display: flex;
@@ -11,10 +11,10 @@
     rgba(0,0,0, 0.2),
     rgba(0,0,0, 1)
   ),url('../../../../imagens/Home/HomeEducacional/offset_comp_218310.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-position-x: center!important;
+    background-position-y: center!important;
 }
 
 @media(max-width: 991px) {

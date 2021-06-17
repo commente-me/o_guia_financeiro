@@ -30,48 +30,48 @@ const Menu = () => {
                 <p className="contarNotificacoes01">4</p>
                 <img className="botaoMenu" src={MenuImagem} alt="menu" onClick={showNavegacao} />
             </Link>
-            <nav id="nav">
+            <nav id="nav" onClick={showNavegacao}>
                 <ul className="ulNav2">
                     <li className="liEspacoTrans alinharTopo li" >
                         <Link to="/">
-                            <img className="bordaImg" src={Icon1} alt="" />
+                            <img className="bordaImg direcao1" src={Icon1} alt="" />
                         </Link>
                     </li>
                     <li className="liEspacoTrans li">
                         <Link to="">
-                            <img className="bordaImg" src={Icon2} alt="" />
+                            <img className="bordaImg direcao2" src={Icon2} alt="" />
                         </Link>
                     </li>
                     <li className="liEspacoTrans li">
                         <Link to="">
-                            <img className="bordaImg" src={Icon3} alt="" />
+                            <img className="bordaImg direcao1" src={Icon3} alt="" />
                         </Link>
                     </li>
                     <li className="liEspacoTrans li">
                         <Link to="">
-                            <img className="bordaImg" src={Icon4} alt="" />
+                            <img className="bordaImg direcao1" src={Icon4} alt="" />
                         </Link>
                     </li>
 
                     <li className="liEspacoBranco li">
                         <Link to="">
-                            <img className="bordaImg" src={Icon5} alt="" />
+                            <img className="bordaImg direcao1" src={Icon5} alt="" />
                         </Link>
                     </li>
                     <li className="liEspacoTrans li">
                         <Link to="">
-                            <img className="bordaImg" src={Icon6} alt="" />
+                            <img className="bordaImg direcao1" src={Icon6} alt="" />
                         </Link>
                     </li>
 
                     <li className="liEspacoBranco li">
                         <Link to="">
-                            <img className="bordaImg" src={Icon7} alt="" />
+                            <img className="bordaImg direcao1" src={Icon7} alt="" />
                         </Link>
                     </li>
                     <li className="liEspacoTrans li">
                         <Link to="">
-                            <img className="bordaImg" src={Icon8} alt="" />
+                            <img className="bordaImg direcao1" src={Icon8} alt="" />
                         </Link>
                     </li>
                 </ul>

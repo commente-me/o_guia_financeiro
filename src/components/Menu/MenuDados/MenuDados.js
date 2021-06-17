@@ -18,7 +18,7 @@ const MenuDados = () => {
     const [opcoes1, setOpcoes1] = useState(false);
     const [buscar, setBuscar] = useState(false);
     const [buscarIcon, setBuscarIcon] = useState(SearchImg);
-    
+
     const showOpcoes = () => {
         setOpcoes(!opcoes);
         setOpcoes1(!opcoes1);
@@ -26,13 +26,13 @@ const MenuDados = () => {
 
     const showInputBusca = () => {
         setBuscar(!buscar);
-        if(buscarIcon) {
+        if (buscarIcon) {
             setBuscarIcon("");
         } else {
             setBuscarIcon(SearchImg);
-        }        
-    } 
-    
+        }
+    }
+
     return (
         <div className={opcoes1 ? "menuTopoDados menuAtiva" : "menuTopoDados"}>
             <div id="divTopoMenu">
@@ -44,7 +44,7 @@ const MenuDados = () => {
                         </Link>
                     </div>
                     <Link to="" onClick={showInputBusca}>
-                        <h4 style={{background: `url(${buscarIcon})` }} className="iconBusca" src={buscarIcon}></h4>
+                        <h4 className="iconBusca" style={{ background: `url(${buscarIcon})` }}>&nbsp;</h4>
                     </Link>
                     <Link to="#">
                         <img src={BookmarkImg} alt="" />
@@ -57,6 +57,7 @@ const MenuDados = () => {
                         <img src={UsuarioImg} alt="" />
                     </Link>
                 </div>
+
             </div>
             <MenuExpandido />
             <div id="botao-opcoes" >
@@ -65,7 +66,9 @@ const MenuDados = () => {
                     <h5>Fique<br />Atualizado</h5>
                 </Link>
             </div>
+
             <div className={opcoes ? "div-topo-opcao opcaoAtiva" : "div-topo-opcao"}>
+
                 <div id="botao-opcoes2" >
                     <Link to="#" onClick={showOpcoes}>
                         <img src={SetaImagem} alt="" />
@@ -96,35 +99,36 @@ const MenuDados = () => {
                     </Link>
                 </div>
                 <br />
-                <div className="botaoNoticias">
-                    <select className="selectNoticias">
-                        <option>Notícias</option>
-                    </select>
-                    <img src={SetaBaixoImg} alt="" />
+                <div className="DivOpcoes">
+                    <div className="botaoNoticias">
+                        <select className="selectNoticias">
+                            <option>Notícias</option>
+                        </select>
+                        <img src={SetaBaixoImg} alt="" />
+                    </div>
+                    <br />
+                    <Link className="textoLink" to="#">
+                        <h4>IPCA: uma surpresa amarga para 2021</h4>
+                        <h5>Inflação de 2% (ou mais) ao mês, chegando nos 30% ao Lorem ipsum dolor sit amet[...]</h5>
+                        <h6>Terraco Econômico - 12/04/2021</h6>
+                    </Link>
+                    <Link className="textoLink" to="#">
+                        <h4>IPCA: uma surpresa amarga para 2021</h4>
+                        <h5>Inflação de 2% (ou mais) ao mês, chegando nos 30% ao Lorem ipsum dolor sit amet[...]</h5>
+                        <h6>Terraco Econômico - 12/04/2021</h6>
+                    </Link>
+                    <Link className="textoLink" to="#">
+                        <h4>IPCA: uma surpresa amarga para 2021</h4>
+                        <h5>Inflação de 2% (ou mais) ao mês, chegando nos 30% ao Lorem ipsum dolor sit amet[...]</h5>
+                        <h6>Terraco Econômico - 12/04/2021</h6>
+                    </Link>
+                    <Link className="textoLink" to="#">
+                        <h4>IPCA: uma surpresa amarga para 2021</h4>
+                        <h5>Inflação de 2% (ou mais) ao mês, chegando nos 30% ao Lorem ipsum dolor sit amet[...]</h5>
+                        <h6>Terraco Econômico - 12/04/2021</h6>
+                    </Link>
                 </div>
-                <br />
-                <Link className="textoLink" to="#">
-                    <h4>IPCA: uma surpresa amarga para 2021</h4>
-                    <h5>Inflação de 2% (ou mais) ao mês, chegando nos 30% ao Lorem ipsum dolor sit amet[...]</h5>
-                    <h6>Terraco Econômico - 12/04/2021</h6>
-                </Link>
-                <Link className="textoLink" to="#">
-                    <h4>IPCA: uma surpresa amarga para 2021</h4>
-                    <h5>Inflação de 2% (ou mais) ao mês, chegando nos 30% ao Lorem ipsum dolor sit amet[...]</h5>
-                    <h6>Terraco Econômico - 12/04/2021</h6>
-                </Link>
-                <Link className="textoLink" to="#">
-                    <h4>IPCA: uma surpresa amarga para 2021</h4>
-                    <h5>Inflação de 2% (ou mais) ao mês, chegando nos 30% ao Lorem ipsum dolor sit amet[...]</h5>
-                    <h6>Terraco Econômico - 12/04/2021</h6>
-                </Link>
-                <Link className="textoLink" to="#">
-                    <h4>IPCA: uma surpresa amarga para 2021</h4>
-                    <h5>Inflação de 2% (ou mais) ao mês, chegando nos 30% ao Lorem ipsum dolor sit amet[...]</h5>
-                    <h6>Terraco Econômico - 12/04/2021</h6>
-                </Link>
             </div>
-
         </div>
     );
 }

@@ -1,26 +1,38 @@
 
 .menuTopoDados {
-    width: 0!important;
-    height: 100%!important;
+    width: auto!important;
+    height: 100vh!important;
     background-color: #000!important;
-    z-index: 250;
-    padding-bottom: 20px!important;
-    overflow-y: scroll!important;
-    overflow-x: hidden!important;   
+    padding-bottom: 20px!important;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.DivOpcoes {
+    width: 98%;
+    height: 100vh;
+    left: 0!important;
+    z-index: 250;    
+}
+
+@media(max-width: 991px) {
+    .DivOpcoes {
+        width: 90%;
+    }
 }
 
 .menuAtiva {
-    width: 200px!important;
+    width: 255px!important;
     height: 100vh!important;
     background-color: #000!important;
     margin-top: 60px;
-    padding: 0 20px;
-    z-index: 400; 
-    position: relative;
+    padding: 0!important;
+    z-index: 250; 
     top: 0px!important;
-    right: 0;
-    overflow-y: scroll!important;
-    overflow-x: hidden!important;  
+    right: 0!important;     
 }
 
 @media(max-width: 991px) {
@@ -31,43 +43,38 @@
         left: 0;
         top: 0!important;
         background-color: #000!important;
-        z-index: 400;
+        z-index: 20;
     }
 }
 
 .div-topo-opcao {
-    width: 240px!important;
-    height: 80%!important;
-    z-index: 400;
-    padding: 5px 15px!important;
+    width: 225px!important;
+    height: 100vh!important;
+    z-index: 0;
+    padding: 5px 0!important;
     display: none; 
     position: relative;    
     background-color: #000; 
     right: 0!important; 
-    top: 0!important; 
-    overflow-y: scroll!important;
-    overflow-x: hidden!important;     
+    top: 0!important;
 }
 
 @media(max-width: 991px) {
     .div-topo-opcao {
-        height: 80%!important;
+        height: 100%!important;
         padding-bottom: 50px;
     }
 }
 
 .div-topo-opcao.opcaoAtiva {
-    width: 240px!important;
-    height: 80%!important;
-    padding: 5px!important;
+    width: 225px!important;
+    height: 100vh!important;
     display: inline-block; 
     position: relative;
     top: 0!important;
     right: 0!important;
     background-color: #000;
-    z-index: 300;  
-    overflow-y: scroll!important;
-    overflow-x: hidden!important;  
+    z-index: 250;    
 }
 
 @media(max-width: 991px) {
@@ -100,7 +107,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #133A3B;    
+    background-color: #133A3B;
+
 }
 
 @media(max-width: 991px) {
@@ -118,10 +126,10 @@
 
 .centralizarTexto {
     width: auto;
-    height: auto;
+    height: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
@@ -132,10 +140,10 @@
 }
 
 .botaoNoticias {
-    width: auto!important;
+    width: 100%!important;
     height: auto;
-    margin: 0 20px;
-    padding: 5px 10px;
+    margin: 0;
+    padding: 5px 0;
     border: 1px solid #068E87;
     border-radius: 5px;
     display: flex;
@@ -146,7 +154,7 @@
 
 @media(max-width: 991px) {
     .botaoNoticias {
-        width: 75%!important;
+        width: 98%!important;
         z-index: 30;
         margin: 0!important
     }
@@ -169,7 +177,7 @@
     color: #068E87!important;
     font-family:"aktiv-grotesk-extended";
     font-size: 16px!important;
-    padding: 10px 20px!important;
+    padding: 10px 3%!important;
 }
 
 .textoLink h5 {
@@ -179,7 +187,7 @@
     font-size: 14px!important;
     font-weight: 400;
     line-height: 20px!important; 
-    padding: 4px 20px!important;
+    padding: 4px 3%!important;
 }
 
 .textoLink h6 {
@@ -189,13 +197,13 @@
     font-size: 14px!important;
     margin-top: 5px;
     font-family: "Lato", sans-serif;
-    padding: 2px 20px!important;
+    padding: 2px 3%!important;
 }
 
 @media(max-width: 991px) {
     .textoLink h4, .textoLink h5, .textoLink h6 {
-        width: 85%!important;
-        padding: 4px 10px!important;
+        width: 98%!important;
+        padding: 4px 0!important;
     }
 }
 
@@ -222,7 +230,7 @@
 }
 
 #botao-opcoes {
-    width: 200px!important;
+    width: 220px!important;
     height: 60px;
     padding: 0 20px;
     display: flex!important;
@@ -231,10 +239,10 @@
     align-items: center;
     background-color: #0d2626;
     position: fixed!important;
-    z-index: 300;
-    top: 0!important;
     right: 0!important;
+    top: 0!important;
     font-family: "aktiv-grotesk-extended";
+    z-index: 400;
 }
 
 #botao-opcoes2 a {
@@ -295,17 +303,17 @@
 }
 
 .divTopo {
-    width: auto;
+    width: auto!important;
     height: 60px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-end!important;
     align-items: center;
-    position: fixed;
     top: 0;
     right: 280px!important;
     position: fixed;
     background-color: #103030;
+    z-index: 250;
 }
 
 @media(max-width: 991px) {
@@ -329,8 +337,14 @@
 .divTopo a img, .divTopo a h4 {
     width: 20px!important;
     height: 20px!important;
-    margin: 0 20px!important;
+    margin: 0 20px!important;    
+}
+
+.divTopo a h4 {
     background-repeat: no-repeat!important;
+    background-position-x: center;
+    background-position-y: center;
+    font-size: 0;
 }
 
 @media(max-width: 991px) {

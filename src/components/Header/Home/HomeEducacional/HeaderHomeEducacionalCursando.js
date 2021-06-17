@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import TempoImg from '../../../../imagens/Home/HomeEducacional/clock3.svg';
+import TempoImg from '../../../../imagens/Home/HomeEducacional/clock branco.svg';
 import DownloadImg from '../../../../imagens/Home/HomeEducacional/download-4.svg';
 import EstrelaImg from '../../../../imagens/Home/HomeEducacional/favorite.svg';
 import EstrelaImg02 from '../../../../imagens/Home/HomeEducacional/favorite-verde2.svg';
