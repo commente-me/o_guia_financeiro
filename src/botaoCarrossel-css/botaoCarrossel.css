@@ -1,0 +1,60 @@
+/* Botão do Slide */
+.ehkxHv{
+    background-color: transparent!important;
+    box-shadow: 0 0 0 0px transparent!important;
+}
+
+.sc-bdnxRM:hover {
+    background-color: transparent!important;
+    box-shadow: 0 0 2px 0px transparent!important;
+}
+
+.sc-bdnxRM {
+  background-color: transparent!important;
+  box-shadow: 0 0 2px 0px transparent!important;
+}
+
+.rec-swipable {
+    height: 100%!important;
+    position: relative!important;
+    z-index: 10!important;
+    background-color: transparent!important;
+
+}
+
+.jCKguF, .rec-swipable {
+  position: relative!important;
+  z-index: 10!important;
+}
+
+.rec-arrow-right {
+    border-bottom-right-radius: 8px!important;
+    border-top-right-radius: 8px!important;
+    position: absolute!important;
+    box-shadow: 0 0 0px 0px transparent!important;
+    border-radius: 8px!important;
+    border: 0!important;
+    z-index: 18!important;
+    border-bottom-right-radius: 8px!important;
+    border-top-right-radius: 8px!important;    
+}
+
+.rec-arrow-left {    
+    border-bottom-left-radius: 8px!important;
+    border-top-left-radius: 8px!important;
+    position: absolute!important;
+    box-shadow: 0 0 0px 0px transparent!important;
+    border-radius: 8px!important;
+    border: 0!important;
+    z-index: 18!important;
+    border-bottom-right-radius: 8px!important;
+    border-top-right-radius: 8px!important;
+}
+
+.rec-arrow-right:hover {      
+  background-color: transparent!important;
+}
+
+.rec-arrow-left:hover, .sc-gtsrHT {  
+  background-color: transparent!important;
+}
