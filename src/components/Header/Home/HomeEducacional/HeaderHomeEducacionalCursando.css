@@ -1,0 +1,138 @@
+#headerHomeEducacional {
+    width: 90%;
+    height: 400px;
+    padding: 2% 4%!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: linear-gradient( 180deg,
+    rgba(0,0,0, 1),
+    rgba(0,0,0, 0.2),
+    rgba(0,0,0, 1)
+  ),url('../../../../imagens/Home/HomeEducacional/offset_comp_218310.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+@media(max-width: 991px) {
+    #headerHomeEducacional {
+        height: 500px!important;
+    }
+}
+
+@media(max-width: 991px) {
+    #div-avaliacao h5 {
+        margin-bottom: 10px;
+    }
+    #div-avaliacao {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    #botaoComecar {
+        margin-bottom: 30px;
+    }
+}
+
+#headerHomeEducacional h1 {
+    color: #FFF;
+    font-size: 34px;
+    line-height: 38px;
+    font-weight: 700;
+    font-family:"aktiv-grotesk-extended";
+}
+
+#headerHomeEducacional h5 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20.2px;
+    margin-right: 10px;
+    font-family:"aktiv-grotesk-extended";
+}
+
+#botaoComeceAqui {
+    width: auto;
+    height: auto;
+    padding: 5px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15.36px;
+    letter-spacing: 1.23px;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+}
+
+#header-tempo {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#header-tempo span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.8px;
+    color: #FFF;
+    margin: 0 8px;
+    font-family: 'Lato', sans-serif;
+}
+
+#header-tempo img {
+    width: 20px!important;
+    height: 20px!important;
+}
+
+#botaoComecar {
+    width: 250px;
+    height: auto;
+    padding: 15px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20.48px;
+    font-weight: 700;
+    font-family:"aktiv-grotesk-extended";
+    color: #FFF;
+    border: 3px solid #123a3a;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+
+#botaoComecar:hover {
+    background-color:  #068E87;
+    color: #FFF;
+    border-radius: 10px;
+}
+
+#div-avaliacao {
+    width: 100%!important;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#div-avaliacao img {
+    width: 14px!important;
+    height: 14px!important;
+    margin: 0 2px;
+}
+
+#div-avaliacao .imgEstrela {
+    width: 14px!important;
+    height: 14px!important;
+}
