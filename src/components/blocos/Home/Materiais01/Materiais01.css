@@ -1,0 +1,107 @@
+.Materiais {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.episodiosMateriais {
+    width: 98%;
+    height: 100%!important;
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: flex-start!important;
+    align-items: flex-start!important;
+    margin-bottom: 80px;
+}
+
+@media(max-width: 991px) {
+    .episodiosMateriais {
+        flex-wrap: wrap!important;
+    }
+}
+
+#divEpisodio {
+    width: 25%;
+    height: auto !important;    
+    display: flex!important;
+}
+
+@media(max-width: 991px) {
+    #divEpisodio {
+        width: 100%!important;
+    }
+}
+
+#divEpisodio h6 {
+    font-size: 16px;
+    line-height: 17.92px;
+    font-family:"aktiv-grotesk-extended";
+    color: #068E87;
+}
+
+.textoEpisodios {
+    width: 80%!important;
+    height: auto;
+    padding: 0 2%;
+}
+
+@media(max-width: 991px) {
+    .textoEpisodios {
+        width: 80%!important;        
+    }
+}
+
+.textoEpisodios a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family:"Lato", sans-serif;
+    color: #068E87;
+}
+
+@media(max-width: 991px) {
+    .textoEpisodios a {
+        width: 270px!important;
+        overflow-y: hidden;
+        font-size: 14px;
+    }
+}
+
+.textoEpisodios h6 {
+    width: 80%;
+    font-size: 16px;
+    font-family:"aktiv-grotesk-extended";
+    line-height: 25.6px;
+    color: #FFF;
+    margin-bottom: 10px;
+}
+
+@media(max-width: 991px) {
+    .textoEpisodios h6 {
+        margin: 10px 0 10px 0;
+        position: relative;
+        left: -1.5%;  
+        font-size: 14px;       
+    }
+}
+
+.textoEpisodios p {
+    width: 80%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Lato",sans-serif;
+    color: #FFF;
+    line-height: 26px;
+}
+
+
+@media(max-width: 991px) {
+    .textoEpisodios p {
+        position: relative;
+        left: 5%; 
+        font-size: 14px;      
+    }
+}
