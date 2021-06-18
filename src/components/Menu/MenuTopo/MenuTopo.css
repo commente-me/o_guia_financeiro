@@ -1,0 +1,111 @@
+#nav-topo {
+    width: 95%;
+    height: 60px;
+    background-color: #103030!important;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    z-index: 22;
+    padding-left: 2%;
+}
+
+@media(max-width: 991px) {
+    #nav-topo {
+        flex-wrap: wrap;
+    }
+}
+
+#div-nav-topo {
+    width: auto!important;
+    height: auto;
+    display: flex!important;
+    flex-direction: row;
+    align-content: flex-end!important;
+    align-items: center;
+    background-color: #103030!important;
+}
+
+.div-topo {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    align-items: center;
+    background-color: #103030!important;
+}
+
+.divTopo img {
+    width: 20px!important;
+    height: 20px!important;
+    margin: 25px!important;
+}
+
+@media(max-width: 768px) {
+    .div-topo {
+        width: 150px;
+    }
+}
+
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin: 5px 15px 5px 5px;
+    position: relative;    
+}
+
+@media(max-width: 991px) {
+    .logo {
+        margin-left: 65px;
+    } 
+}
+
+#nav-topo span {  /* Não há Logo */
+    color: #FFF!important;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.dadosUsuario {
+    width: auto;
+    height: 65%!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 15px;
+    margin: 0 5px;
+    border-left: 1px solid rgba(255,255,255,0.7);
+}
+
+@media(max-width: 991px) {
+    .dadosUsuario {
+       display: none;
+    }
+}
+
+
+.dadosUsuario h6 {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10.24px;
+    color: #FFF!important;
+    font-family: "Lato",sans-serif;
+    margin-bottom: 6px;
+}
+
+.dadosUsuario h3 {
+    font-size: 18px;
+    line-height: 20.48px;
+    color: #FFF!important;
+    font-family:"aktiv-grotesk-extended";
+}
+
+@media(max-width: 991px) {
+    .dadosUsuario h6 {
+        margin-top: 35%;
+    }
+}
