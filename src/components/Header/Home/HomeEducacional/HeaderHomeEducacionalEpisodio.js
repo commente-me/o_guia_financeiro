@@ -33,6 +33,7 @@ const HeaderHomeEducacionalEpisodio = () => {
                 </div>
                 <br />
                 <h3>Um resumo sobre o que o usuário encontratá nesta série em até três linhas. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Duis aute irure dolor in reprehenderit in voluptate velit.</h3>
+                <br/>
             </div>
         </header>
     );

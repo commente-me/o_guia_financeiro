@@ -34,7 +34,7 @@ const MenuDados = () => {
     }
 
     return (
-        <div className={opcoes1 ? "menuTopoDados menuAtiva" : "menuTopoDados"}>
+        <div className={opcoes1 ? "menuTopoDados menuAtiva" : "menuTopoDados"} onClick={showInputBusca}>
             <div id="divTopoMenu">
                 <div className="divTopo">
                     <div className={buscar ? "alinhaInput buscarAtivo" : "alinhaInput"}>

@@ -63,10 +63,14 @@ const Footer = () => {
                     <p>© O Guia Financeiro. Todos os direitos reservados.</p>
                 </div>
                 <div className="footerColuna02">
+                    <div className="FooterCol01">
                     <p>Política de privacidade</p>
                     <p>Política de cookies</p>
+                    </div>
+                    <div className="FooterCol02">
                     <p>Termos e condições</p>
                     <p>Aviso sobre risco</p>
+                    </div>
                 </div>
             </div>
         </div>

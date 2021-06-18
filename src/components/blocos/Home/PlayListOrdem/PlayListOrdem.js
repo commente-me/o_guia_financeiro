@@ -1,13 +1,9 @@
-import React, {Fragment}from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './PlayListOrdem.css';
 import { PlayListOrdemData } from '../PlayListOrdem/PlayListOrdemData';
 import Carousel from 'react-elastic-carousel';
 import { BreakPointsData } from '../../../Breackpoints/Breackpoints';
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-// Import Swiper styles
-import 'swiper/swiper-bundle.min.css';
 
 const PlayListOrdem = () => {
 

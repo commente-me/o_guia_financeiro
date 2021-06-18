@@ -10,7 +10,7 @@
 
 @media(max-width: 991px) {
     #headerHomeEducacional {
-        height: 500px!important;
+        height: 469px!important;
     }
 }
 
@@ -32,6 +32,19 @@
 #headerEpsodio1 {
     width: 100%;
     height: auto;
+}
+
+#headerHomeEducacionaEpsodio h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+@media(max-width: 991px) {
+    #headerHomeEducacionaEpsodio h3 {
+        font-size: 14px;
+    }
 }
 
 #headerHomeEducacionaEpsodio1 h1 {

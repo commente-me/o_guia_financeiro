@@ -31,6 +31,7 @@ const ConteudoHomeEducacionalEpisodio = () => {
             <div className="tagsEpisodio">
                 <br/><br/><br/><br/>
                 <h5>Tags</h5>
+                <div className="TagsDosEpisodios">
                 <Link to="">
                     Comportamento
                 </Link>
@@ -40,6 +41,7 @@ const ConteudoHomeEducacionalEpisodio = () => {
                 <Link to="">
                     Contemporâneo
                 </Link>
+                </div>
             </div>       
         </div>
     );

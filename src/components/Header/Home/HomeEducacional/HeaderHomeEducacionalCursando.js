@@ -33,6 +33,7 @@ const HeaderHomeEducacionalCursando = () => {
                 <Link id="botaoComecar" to="/episodio">
                     Continuar
                 </Link>
+                <br/>
             </div>            
         </header>
     );

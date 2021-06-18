@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Materiais01 = () => {
     return (
-        <div>
+        <div className="Materiais">
             <div className="episodiosMateriais">
                 <div id="divEpisodio">
                     <h6>Links úteis</h6>

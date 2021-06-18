@@ -2,12 +2,11 @@ import React, {useState} from 'react';
 import LOGO from '../../../imagens/Home/HomeEducacional/logo-nova-cor 1.svg';
 import './MenuTopo.css';
 import { Link } from 'react-router-dom';
-import SetaImagem from '../../../imagens/Home/HomeEducacional/seta.png';
 
 const MenuTopo = () => {
 
     return (
-        <nav id="nav-topo">
+        <nav id="nav-topo" >
             <Link to="/">
                 <img className="logo" src={LOGO} alt="" />
             </Link>

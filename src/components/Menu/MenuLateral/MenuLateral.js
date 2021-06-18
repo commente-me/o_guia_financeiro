@@ -30,7 +30,7 @@ const Menu = () => {
                 <p className="contarNotificacoes01">4</p>
                 <img className="botaoMenu" src={MenuImagem} alt="menu" onClick={showNavegacao} />
             </Link>
-            <nav id="nav" onClick={showNavegacao}>
+            <nav id="nav">
                 <ul className="ulNav2">
                     <li className="liEspacoTrans alinharTopo li" >
                         <Link to="/">
@@ -80,9 +80,9 @@ const Menu = () => {
             <div id="nav-itens" menus={menu} className={menu ? 'menu menuAtivo' : 'menu'} onClick={showNavegacao}>
                 <div id="nav-ul">
                     <ul className="ulNav">
-                        <Link className="liEspacoTrans topoLi" to="/">
+                        <Link className="liEspacoTrans topoLi" to="#">
                             <img className="botaoVoltar" src={SetaImagem} alt="voltar" onClick={showNavegacao} />
-                            <Link to="/">
+                            <Link to="/" style={{marginLeft: '10px'}}>
                                 <img className="logoNavLateral" src={LOGO} alt="" />
                             </Link>
                         </Link>
