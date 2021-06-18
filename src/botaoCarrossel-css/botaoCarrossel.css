@@ -36,8 +36,8 @@
     border: 0!important;
     z-index: 18!important;
     border-bottom-right-radius: 8px!important;
-    border-top-right-radius: 8px!important;  
-    margin-right: 5px;  
+    border-top-right-radius: 8px!important;
+    right: 0!important;
 }
 
 .rec-arrow-left {    
@@ -50,7 +50,7 @@
     z-index: 18!important;
     border-bottom-right-radius: 8px!important;
     border-top-right-radius: 8px!important;
-    margin-left: 5px;
+    left: 0!important;
 }
 
 .rec-arrow-right:hover {      

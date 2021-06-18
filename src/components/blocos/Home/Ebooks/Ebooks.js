@@ -33,6 +33,7 @@ const Ebooks = () => {
                                         <img className="imgCadeado" src={item.iconCadeado} alt="" />
                                         <img className="imgPlay" src={item.iconPlay} alt="" />
                                     </div>
+                                    <div className="videos-barra2"></div>
                                 </div>
                             </div>
                         </div>

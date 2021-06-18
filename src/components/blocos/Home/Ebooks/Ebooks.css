@@ -9,6 +9,14 @@
     padding: 0 4%;
 }
 
+.videos-barra2 {
+    width: 100%;
+    height: 5px;
+    margin-top: 0px;
+    background-color: #FFF;
+    border-radius: 0px!important;
+}
+
 .TodosEpisodios {
     width: 100%;
     height: 100%;
@@ -19,7 +27,13 @@
 }
 
 .TodosEpisodios:hover {
+    background-color: #103030;
+    cursor: pointer; 
+    color: #F2F5F0!important;   
+}
 
+.IconsTitulo h5:hover {
+    color: #F2F5F0!important;   
 }
 
 @media(max-width: 991px) {
@@ -37,8 +51,8 @@
     font-size: 22px;
     line-height: 25.6px;
     font-family:"aktiv-grotesk-extended";
-    color: #068E87;
-    margin: 3% 0;
+    color: #068E87; 
+    margin-bottom: 3px!important;
 }
 
 .episodios {
@@ -72,8 +86,8 @@
     background-position-y: center!important;
     border-top-left-radius: 8px!important;
     border-top-right-radius: 8px!important;
-    border-bottom-left-radius: 4px!important;
-    border-bottom-right-radius: 4px!important;
+    border-bottom-left-radius: 8px!important;
+    border-bottom-right-radius: 8px!important;
 }
 
 @media(max-width: 991px) {
@@ -107,6 +121,19 @@
     flex-direction: row!important;
     justify-content: space-between!important;
     align-items: center!important;
+}
+
+.IconsDownload img, .IconsDownload p {
+    display: none!important;
+}
+
+@media(max-width: 991px) {
+    .IconsDownload {
+        display: flex!important;
+    }
+    .IconsDownload img, .IconsDownload p {
+        display: flex!important;
+    }
 }
 
 .IconsDownload02 {

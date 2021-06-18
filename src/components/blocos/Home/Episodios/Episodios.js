@@ -32,20 +32,22 @@ const Episodios = () => {
                                         <img className="imgCadeado" src={item.iconCadeado} alt="" />
                                         <img className="imgPlay" src={item.iconPlay} alt="" />
                                     </div>
+                                    <div className="videos-barra2"></div>
                                 </div>
                             </div>
+
                         </div>
                         <div class="textoEpisodios">
                             <div className="IconsTitulo">
                                 <h5>{item.id}. {item.titulo}</h5>
                                 <div className="IconsDownload02">
                                     <img src={item.iconDownload} alt="" />
-                                    <img src={item.iconRelogio} alt="" />
-                                    <p>15 min</p>
+                                    <img className="imgRelogio" src={item.iconRelogio} alt="" />
+                                    <p className="imgRelogio">15 min</p>
                                 </div>
                             </div>
                             <p>{item.descricao}</p>
-                        </div>
+                        </div>                        
                     </div>
                 );
             })}

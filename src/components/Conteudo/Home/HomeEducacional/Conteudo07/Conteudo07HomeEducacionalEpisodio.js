@@ -6,6 +6,9 @@ import Episodios from '../../../../blocos/Home/Episodios/Episodios';
 import Materiais from '../../../../blocos/Home/Materiais/Materiais';
 import { Link } from 'react-router-dom';
 import Ebooks from '../../../../blocos/Home/Ebooks/Ebooks';
+import Icon01 from '../../../../../imagens/Home/HomeEducacional/play.svg';
+import Icon02 from '../../../../../imagens/Home/HomeEducacional/fileFiled.svg';
+import Icon03 from '../../../../../imagens/Home/HomeEducacional/pdf.svg';
 
 const ConteudoHomeEducacionalEpisodio = () => {
 
@@ -19,9 +22,9 @@ const ConteudoHomeEducacionalEpisodio = () => {
         <div className="tabNavegacao">
             <AppBar color="transparent" position="static">
                 <Tabs value={selecionaTab} onChange={handleChange}>
-                    <Tab label="Episódios" />
-                    <Tab label="Materiais complementares" />
-                    <Tab label="E-books" />
+                    <Tab icon={<img className="imgsTabs" src={Icon01} alt=""/>} label="Episódios" />
+                    <Tab icon={<img className="imgsTabs" src={Icon02} alt=""/>} label="Materiais complementares" />
+                    <Tab icon={<img className="imgsTabs" src={Icon03} alt=""/>} label="E-books" />
                 </Tabs>
             </AppBar>
             {selecionaTab === 0 && <Episodios/>}
