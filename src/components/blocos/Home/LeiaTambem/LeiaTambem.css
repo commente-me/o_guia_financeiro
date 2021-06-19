@@ -1,0 +1,205 @@
+#leiaTambem {
+    width: 100%!important;
+    height: auto!important;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.divSombraLeiaTambem {
+    width: 100%;
+    height: 100%;
+    position: absolute!important;
+    top: 0;
+    left: 32px;
+    border-radius: 8px;
+    right: 0;
+    z-index: 200!important;   
+    background-image:linear-gradient(to right, rgba(0,0,0,0.1) 0.1%,rgba(0,0,0,0),rgba(0,0,0,0.0),rgba(0,0,0,0),rgba(0,0,0,0.1))!important;
+}
+
+.leiaTambem {
+    width: 100%!important;
+    height: auto!important;
+    display: flex;
+    margin: 0 16px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 0!important;
+    border-top-left-radius: 8px!important;
+    border-top-right-radius: 8px!important;
+    border-bottom-left-radius: 8px!important;
+    border-bottom-right-radius: 8px!important; 
+    /* box-shadow: 25px 0px 4px rgba(0,0,0,0.1)!important;        */
+}
+
+.leiaTambemDados {
+    width: 100%;
+    height: auto;
+    margin: 0 16px!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    border-top-left-radius: 8px!important;
+    border-top-right-radius: 8px!important;
+    border-bottom-left-radius: 8px!important;
+    border-bottom-right-radius: 8px!important;   
+}
+
+.leiaTambemDados:hover {
+    cursor: pointer;
+    position: relative;
+    z-index: 50;
+    transition: 0.6s;
+}
+
+.leiaTambemDados p {
+    font-family: "Lato",sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #068E87;
+}
+
+#leiaTambem-info {
+    width: 90%!important;
+    height: 290px!important;
+    background: #FFF;
+    padding: 22px!important;
+    position: relative;
+    z-index: 99!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top-left-radius: 8px!important;
+    border-top-right-radius: 8px!important;  
+    border-bottom-left-radius: 8px!important;
+    border-bottom-right-radius: 8px!important; 
+}
+
+#leiaTambem-info h5 {
+    width: 100%;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: left;
+    vertical-align: top;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family:"aktiv-grotesk-extended";
+    color: #133A3B;
+    padding-top: 25px;
+}
+
+@media(max-width: 991px) {
+    #leiaTambem-info h5 {
+        font-size: 18px;
+    }
+}
+
+#leiaTambem-info h6 {
+    width: 100%;    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    -webkit-box-orient: vertical;
+    font-family: 'Lato', sans-serif; 
+    margin-bottom: 10px;
+    color:#133A3B;
+}
+
+#leiaTambem-identifica {
+    width: 100%;
+    height: auto!important;
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: flex-start!important;
+    align-items: center!important;
+    margin-bottom: 10px;
+}
+
+#leiaTambem-identifica img {
+    width: 30px!important;
+    height: auto!important;
+    margin-right: 10px;
+}
+
+#leiaTambem-identifica h6 {
+    font-size: 14px;
+    font-family:"Lato",sans-serif;
+    margin-top: 10px;
+    color: #133A3B;
+    line-height: 20px;
+}
+
+#leiaTambem-opcoes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+.leiaTambem-opcao {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#leiaTambem-opcao img {
+    width: 25px!important;
+    height: 25px!important;
+}
+
+.imagensSvgleiaTambem {
+    width: 15px!important;
+    height: 15px!important;
+}
+
+.leiaTambem-opcao h6 {
+    font-size: 12px!important;
+    font-family: 'Lato', sans-serif;
+    color: #068E87!important;
+    font-weight: 400;
+    margin: 0 3px!important;
+}
+
+#leiaTambem .rec-arrow-left {
+    background: url('./../../../../imagens/Home/HomeEducacional/seta_verde_esquerda.svg')!important;
+    height: 100%!important; 
+    background-position: center!important;
+    background-size: 23px auto!important;
+    background-repeat: no-repeat!important;
+}
+
+#leiaTambem .rec-arrow-right {   
+    background: url('./../../../../imagens/Home/HomeEducacional/seta_verde.svg')!important;
+    height: 100%!important; 
+    background-position: center!important;
+    background-size: 23px auto!important;
+    background-repeat: no-repeat!important;
+} 
+
+#leiaTambem .rec-arrow {
+    color: transparent!important;
+}
+
+#leiaTambem .rec-arrow[disabled=""] {
+    background-image: none!important;
+}
+
+#leiaTambem .rec-arrow-right:hover {      
+  background-color: transparent!important;
+}
+
+#leiaTambem .rec-arrow-left:hover {  
+  background-color: transparent!important;
+}

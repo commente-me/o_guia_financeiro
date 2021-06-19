@@ -1,0 +1,134 @@
+.conteudo {
+    width: 96%;
+    height: auto;
+    padding: 0.5% 0;
+    background-color: #000;
+    padding: 16px 2%!important;
+    position: relative;
+}
+
+@media(max-width: 991px) {
+    .conteudo {
+        padding: 8px 2%!important;
+    }
+}
+
+#conteudo05 {
+    width: 96%;
+    height: 100%;
+    padding: 3% 0;
+    background-color: #103030!important;
+    padding: 2%!important;
+}
+
+@media(max-width: 991px) {
+    .conteudo05 {
+        padding: 8px 2%!important;
+    }
+}
+
+#titulo {
+    width: 95%;
+    height: auto;
+    padding: 0 2% 20px 2%;
+    text-align: left!important;
+}
+
+@media(max-width: 991px) {
+    #titulo {
+        width: 95%;
+        height: auto;
+        padding: 0 2% 2px 2%;
+        text-align: left!important;
+    }
+}
+
+#titulo h1 {
+    color: #068E87;
+    font-size: 26px;
+    font-family:"aktiv-grotesk-extended";
+    text-transform: uppercase;
+    line-height: 32,72px;
+    margin-bottom: 10px;
+}
+
+#titulo h2 {
+    color: #F2F5F0;
+    font-size: 22px;
+    line-height: 27,6px;
+    font-family:"aktiv-grotesk-extended";
+}
+
+@media(max-width: 991px) {
+    #titulo h2 { 
+        margin: 0px 0 30px 8%;
+    }
+}
+
+#titulo h5 {
+    color: #F2F5F0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16.8px;
+    padding: 5px 0;
+    font-family:"Lato", sans-serif;    
+}
+
+#titulo05 {
+    width: 95%;
+    height: auto;
+    padding: 0 2% 20px 2%;
+}
+
+#titulo05 h1 {
+    color: #068E87;
+    font-size: 26px;
+    font-family:"aktiv-grotesk-extended";
+    text-transform: uppercase;
+    line-height: 32,72px;
+    margin-bottom: 10px;
+}
+
+#titulo05 h2 {
+    color: #F2F5F0;
+    font-size: 22px;
+    line-height: 27,6px;
+    font-family:"aktiv-grotesk-extended";
+}
+
+@media(max-width: 991px) {
+    #titulo05 h2 { 
+        margin: 30px 0 30px 0;
+    }
+}
+
+#titulo05 h5 {
+    color: #F2F5F0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16.8px;
+    padding: 5px 0;
+    font-family:"Lato", sans-serif;
+}
+
+@media(max-width: 991px) {
+    #titulo, #titulo05  {
+        text-align: left;
+    }
+    #titulo h5 {
+        position: relative;
+        left: 2%;
+    }    
+    #titulo05 h5{
+        position: relative;
+        left: 0%;
+    }
+    #titulo h2 {
+        position: relative;
+        left: -6%;
+    }    
+    #titulo05 h2 {
+        position: relative;
+        left: 4%;
+    }
+}
