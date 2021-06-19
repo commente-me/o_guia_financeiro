@@ -1,0 +1,203 @@
+#assuntos {
+    width: 100%!important;
+    height: auto!important;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #103030;
+    padding-bottom: 50px;
+}
+
+.divSombraAssuntos {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 28px;
+    border-radius: 8px;
+    z-index: 200!important;   
+    background-image:linear-gradient(to right, rgba(0,0,0,0.1) 0.1%,rgba(0,0,0,0),rgba(0,0,0,0.0),rgba(0,0,0,0),rgba(0,0,0,0.1))!important;
+}
+
+.assuntos {
+    width: 100%!important;
+    height: 100%!important;
+    margin: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative!important;
+    z-index: 150!important;
+    border: 1px solid transparent!important;
+}
+
+.assuntosDados {
+    width: 94%;
+    height: 100%!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 8px!important; 
+    border-top-right-radius: 8px!important;
+}
+
+.assuntosDados:hover {
+    cursor: pointer;
+    position: relative;
+    z-index: 50;
+    transition: 0.6s;
+}
+
+#assunto-banner {
+    width: 100%;
+    height: 190px;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-position-x: center;
+    background-position-y: center;
+    border-top-left-radius: 8px!important; 
+    border-top-right-radius: 8px!important;
+}
+
+@media(max-width: 580px) {
+    #assunto-banner {
+        padding: 2%;
+    }
+}
+
+#assunto-info {
+    width: 90%!important;
+    height: 200px;
+    background: #FFF;
+    padding: 22px!important;
+    position: relative;
+    z-index: 99!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-bottom-left-radius: 8px!important;
+    border-bottom-right-radius: 8px!important;
+}
+
+#assunto-info h5 {
+    width: 100%;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family:"aktiv-grotesk-extended";
+    color: #133A3B;
+}
+
+#assunto-info h6 {
+    width: 100%;    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    -webkit-box-orient: vertical;
+    font-family: 'Lato', sans-serif; 
+    margin-bottom: 10px;
+    color:#133A3B;
+}
+
+#assunto-identifica {
+    width: 100%;
+    height: 80px!important;
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: flex-start;
+    align-items: center!important;
+    margin-bottom: 10px;
+}
+
+#assunto-identifica img {
+    width: 30px!important;
+    height: auto!important;
+    margin-right: 10px;
+}
+
+#assunto-identifica h6 {
+    font-size: 14px;
+    font-family:"Lato",sans-serif;
+    margin-top: 10px;
+    color: #133A3B;
+    line-height: 20px;
+}
+
+#assunto-opcoes {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.assunto-opcao {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#assunto-opcao img {
+    width: 25px!important;
+    height: 25px!important;
+}
+
+.imagensSvgAssunto {
+    width: 15px!important;
+    height: 15px!important;
+}
+
+.assunto-opcao h6 {
+    font-size: 12px!important;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    color: #068E87!important;
+    margin: 0 3px!important;
+}
+
+#assuntos .rec-arrow-left {
+    background: url('./../../../../imagens/Home/HomeEducacional/seta_branca_esquerda.svg')!important;
+    height: 100%!important; 
+    background-position: center!important;
+    background-size: 23px auto!important;
+    background-repeat: no-repeat!important;
+}
+
+#assuntos .rec-arrow-right {   
+    background: url('./../../../../imagens/Home/HomeEducacional/seta_branca.svg')!important;
+    height: 100%!important; 
+    background-position: center!important;
+    background-size: 23px auto!important;
+    background-repeat: no-repeat!important;
+} 
+
+#assuntos .rec-arrow {
+    color: transparent!important;
+}
+
+#assuntos .rec-arrow[disabled=""] {
+    background-image: none!important;
+}
+
+#assuntos .rec-arrow-right:hover {      
+  background-color: transparent!important;
+}
+
+#assuntos .rec-arrow-left:hover {  
+  background-color: transparent!important;
+}
