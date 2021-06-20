@@ -54,9 +54,40 @@
             <header class="gd-header"></header>
             <main class="gd-main"></main>
         </div>
-        <section class="gd-fique-ligado"></section>
+        <section class="gd-fique-ligado">
+            <div class="gd-fique-ligado-fixed">
+                <button class="gd-fique-ligado-close-button">
+                    <img src="./resources/images/buttons/fique-atualizado.svg" alt="Fique Atualizado">
+                </button>
+                <div class="gd-marquee">
+                    <div class="gd-marquee-container">
+                        <div id="marquee">
+                            <span class="gd-marquee-stats">
+                                <i class="gd-marquee-stats-name">ITUB4</i>
+                                <i class="gd-marquee-stats-amount">R$26,86</i>
+                                <i class="gd-marquee-stats-percent"><img
+                                        src="./resources/images/icons/marquee/arrow-up.svg" alt=""> 0,83%</i>
+                            </span>
+                            <span class="gd-marquee-stats">
+                                <i class="gd-marquee-stats-name">AAPL</i>
+                                <i class="gd-marquee-stats-amount">R$130,46</i>
+                                <i class="gd-marquee-stats-percent"><img
+                                        src="./resources/images/icons/marquee/arrow-up.svg" alt=""> -1,01%</i>
+                            </span>
+                            <span class="gd-marquee-stats">
+                                <i class="gd-marquee-stats-name">GOOG</i>
+                                <i class="gd-marquee-stats-amount">R$2511,35</i>
+                                <i class="gd-marquee-stats-percent"><img
+                                        src="./resources/images/icons/marquee/arrow-up.svg" alt=""> -0,64%</i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
-    <script src="./resources/scripts/guide.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/node-marquee/dist/cdn/index.min.js"></script>
+    <script type="text/javascript" src="./resources/scripts/guide.js" type="module"></script>
 </body>
 
 </html>

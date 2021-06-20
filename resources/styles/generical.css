@@ -19,11 +19,3 @@
   padding-left: 20px;
   padding-right: 20px;
 }
-
-.gd-fique-ligado {
-  width: 100%;
-  max-width: 240px;
-  height: 100%;
-  display: flex;
-  background-color: var(--preto-guide);
-}

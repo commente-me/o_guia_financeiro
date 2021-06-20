@@ -1,0 +1,60 @@
+.gd-fique-ligado {
+  width: 100%;
+  max-width: 240px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--preto-guide);
+}
+
+.gd-fique-ligado-close-button {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.gd-marquee {
+  width: 100%;
+  background-color: rgba(19, 58, 59, 0.4);
+}
+
+.gd-marquee-container {
+  width: 90%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.gd-marquee-stats i {
+  font-style: normal;
+  padding-left: 4.5px;
+  padding-right: 4.5px;
+  font-size: 12px;
+}
+
+.gd-marquee-stats-name {
+  color: var(--branco-guide);
+  font-weight: 700;
+}
+
+.gd-marquee-stats-amount {
+  color: var(--branco-guide);
+  font-size: 400;
+}
+
+.gd-marquee-stats-percent {
+  color: var(--verde-guide);
+  font-size: 400;
+}
+
+.node-marquee__el {
+  padding-right: 38px;
+}
