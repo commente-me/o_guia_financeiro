@@ -2,8 +2,9 @@
   width: 100%;
   max-width: 44px;
   height: 100%;
-  background-color: var(--cinza-guide);
-  position: relative;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 
 .gd-navigation-fixed {
@@ -15,6 +16,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  background-color: var(--cinza-guide);
 }
 
 .gd-navigation-burger-menu {
