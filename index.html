@@ -12,9 +12,9 @@
 <body>
     <div class="gd-container">
         <div class="gd-navigation">
-            <button class="gd-navigation-burger-menu">
+            <div class="gd-navigation-burger-menu">
                 <img src="./resources/images/icons/navigation/burger-menu.svg" alt="Burger Menu">
-            </button>
+            </div>
             <nav class="gd-menu">
                 <div class="gd-nav-group">
                     <a href="#" id="home" class="gd-nav-link">
@@ -48,15 +48,61 @@
                 </div>
             </nav>
         </div>
-        <div class="gd-box">
-            <header class="gd-header"></header>
-            <main class="gd-main"></main>
+        <div class="gd-center">
+            <header class="gd-header">
+                <div class="gd-header-left">
+                    <div class="gd-header-logo">
+                        <img src="./resources/images/guide_brand_top.svg" alt="O Guia Financeiro by Guide.">
+                    </div>
+                    <div class="gd-header-hello">
+                        <span class="gd-header-hello-date">Terça-feira - 20/04/2021</span>
+                        <span class="gd-header-hello-use">Bom dia Fulano!</span>
+                    </div>
+                </div>
+                <div class="gd-header-right">
+                    <div class="gd-header-icons">
+                        <div class="gd-header-icons-search">
+                            <img src="./resources/images/icons/navigation/search.svg" alt="">
+                        </div>
+                        <div class="gd-header-icons-bookmark">
+                            <img src="./resources/images/icons/navigation/bookmark.svg" alt="">
+                        </div>
+                        <div class="gd-header-icons-notification">
+                            <img src="./resources/images/icons/navigation/bell.svg" alt="">
+                            <span class="gd-header-icons-notification-badge">4</span>
+                        </div>
+                        <div class="gd-header-icons-user">
+                            <img src="./resources/images/icons/navigation/user.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="gd-header-fique-atualizado-button">
+                        <img src="./resources/images/buttons/fique-atualizado-close.svg" alt="">
+                    </div>
+                </div>
+            </header>
+            <div class="gd-main">
+                <section class="gd-full-card">
+                    <h4 class="gd-full-card-watch-now">Você está assistindo</h4>
+                    <div class="gd-full-card-watch-bottom">
+                        <div class="gd-full-card-status">
+                            <span class="gd-full-card-status-time"><img src="./resources/images/icons/cards/clock.svg"
+                                    alt="Timer">1:01 min</span>
+                            <span class="gd-full-card-status-episode"><img
+                                    src="./resources/images/icons/cards/download.svg" alt="Timer">2/4 episódios</span>
+                        </div>
+                        <h3 class="gd-full-card-watch-title">Comportamento e Finanças</h3>
+                        <p class="gd-full-card-watch-feat">com Mayra de Lima e Alejandro Ortiz <img
+                                src="./resources/images/icons/cards/stars.svg" alt="Stars"></p>
+                        <div class="gd-full-card-watch-button">Continuar</div>
+                    </div>
+                </section>
+            </div>
         </div>
         <section class="gd-fique-ligado">
             <div class="gd-fique-ligado-fixed">
-                <button class="gd-fique-ligado-close-button">
-                    <img src="./resources/images/buttons/fique-atualizado.svg" alt="Fique Atualizado">
-                </button>
+                <div class="gd-fique-ligado-close-button">
+                    <img src="./resources/images/buttons/fique-atualizado-open.svg" alt="Fique Atualizado">
+                </div>
                 <div class="gd-marquee">
                     <div class="gd-marquee-container">
                         <div id="marquee">
@@ -81,8 +127,8 @@
                         </div>
                     </div>
                 </div>
-                <button class="gd-fique-ligado-button-noticias">Notícias <img
-                        src="./resources/images/icons/generic/chevron-down.svg" alt="Chevron Down"></button>
+                <div class="gd-fique-ligado-button-noticias">Notícias <img
+                        src="./resources/images/icons/generic/chevron-down.svg" alt="Chevron Down"></div>
                 <section class="gd-noticias-feed">
                     <div class="gd-noticias-content">
                         <h4 class="gd-noticias-title">IPCA: uma surpresa amarga para 2021</h4>
@@ -114,8 +160,8 @@
             </div>
         </section>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/node-marquee/dist/cdn/index.min.js"></script>
-    <script type="text/javascript" src="./resources/scripts/guide.js" type="module"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/node-marquee/dist/cdn/index.min.js"></script>
+    <script type="text/javascript" src="./resources/scripts/guide.js"></script>
 </body>
 
 </html>
