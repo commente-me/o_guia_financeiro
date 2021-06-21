@@ -1,0 +1,124 @@
+.gd-main {
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.gd-main::-webkit-scrollbar {
+  width: 0px;
+}
+
+.gd-full-card {
+  width: 100%;
+  height: 420px;
+  min-height: 420px;
+  background: url("../images/banners/banner_01.png") center center;
+  background-size: cover;
+  position: relative;
+  padding: 27px 16px 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1600px;
+}
+
+.gd-full-card::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 420px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+
+.gd-full-card::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 114px;
+  left: 0;
+  top: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  transform: rotate(-180deg);
+}
+.gd-full-card-watch-now,
+.gd-full-card-watch-bottom {
+  z-index: 1;
+}
+
+.gd-full-card-watch-now {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1.23px;
+  text-transform: uppercase;
+  color: var(--branco-guide);
+  font-family: var(--ff-aktiv);
+}
+
+.gd-full-card-status {
+  display: flex;
+  align-items: center;
+}
+
+.gd-full-card-status-time,
+.gd-full-card-status-episode {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--branco-guide);
+}
+
+.gd-full-card-status-time img,
+.gd-full-card-status-episode img {
+  margin-right: 5px;
+}
+
+.gd-full-card-watch-title {
+  font-family: var(--ff-aktiv);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 36px;
+  color: var(--branco-guide);
+  margin-top: 8px;
+}
+
+.gd-full-card-watch-feat {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--branco-guide);
+}
+
+.gd-full-card-watch-feat img {
+  margin-left: 14px;
+}
+
+.gd-full-card-watch-button {
+  width: 220px;
+  height: 50px;
+  border: 1px solid var(--verde-guide);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--branco-guide);
+  font-family: var(--ff-aktiv);
+  margin-top: 22px;
+}

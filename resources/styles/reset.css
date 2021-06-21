@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--ff-lato);
+  background: #e5e5e5;
+}
+
+label,
+input,
+button {
+  font-family: var(--ff-aktiv);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ff-aktiv);
+}
+
+a:hover,
+a:active,
+a:link,
+a:visited,
+a:focus {
+  text-decoration: none;
+}

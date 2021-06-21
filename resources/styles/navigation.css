@@ -1,0 +1,44 @@
+.gd-navigation-burger-menu {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gd-menu {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.gd-nav-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gd-nav-group:not(:last-of-type)::after {
+  content: "";
+  width: 30px;
+  height: 1px;
+  background-color: var(--verde-guide);
+  opacity: 0.2;
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+
+.gd-nav-link {
+  width: 100%;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gd-nav-link:not(:last-of-type) {
+  margin-bottom: 24px;
+}
+
+.gd-nav-link-active {
+  border-right: 1px solid var(--verde-guide);
+}
