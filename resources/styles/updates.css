@@ -1,21 +1,6 @@
-.gd-fique-ligado {
-  width: 100%;
-  max-width: 240px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  background-color: var(--preto-guide);
-  position: fixed;
-  right: 0;
-  top: 0;
-}
-
 .gd-fique-ligado-fixed {
   width: 100%;
   height: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
