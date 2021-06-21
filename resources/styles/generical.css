@@ -1,36 +1,45 @@
 .gd-container {
-  width: 100vw;
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 45px 1fr 240px;
-  grid-template-rows: 100vh;
-  grid-template-areas:
-    "menu main sidebar"
-    "menu main sidebar";
-  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gd-menu-navigation {
+  width: 45px;
+  height: 100%;
+  background: var(--cinza-guide);
+}
+
+.gd-main {
+  width: calc(100% - 285px);
+  height: 100%;
+  background: var(--cinza-claro-guide);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .gd-header {
   width: 100%;
   height: 60px;
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--cinza-guide);
-  grid-area: header;
+  background: var(--cinza-fundos);
 }
 
-.gd-navigation {
-  grid-area: menu;
-  background-color: var(--cinza-fundos);
-}
-
-.gd-center {
+.gd-content-home-education {
   width: 100%;
-  height: 100%;
-  grid-area: main;
+  max-width: 1600px;
+  height: calc(100% - 60px);
+  overflow: hidden;
+  overflow-y: scroll;
 }
 
-.gd-fique-ligado {
-  grid-area: sidebar;
-  background-color: var(--preto-guide);
+.gd-content-home-education::-webkit-scrollbar {
+  display: none;
+}
+
+.gd-sidebar {
+  width: 240px;
+  height: 100%;
+  background: var(--preto-guide);
 }
