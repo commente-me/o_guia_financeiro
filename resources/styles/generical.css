@@ -15,7 +15,7 @@
   height: 60px;
   display: flex;
   justify-content: space-between;
-  background-color: var(--cinza-fundos);
+  background-color: var(--cinza-guide);
   grid-area: header;
 }
 
