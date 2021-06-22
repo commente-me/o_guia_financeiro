@@ -1,0 +1,123 @@
+.gd-other-contents {
+    width: 100%;
+    background: var(--preto-guide);
+    position: relative;
+    padding: 27px 16px 28px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    color: var(--branco-guide);
+}
+
+.gd-other-contents h5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: var(--verde-guide)
+}
+
+.gd-other-contents-catalog {
+    
+}
+
+.gd-other-contents-catalog h5 {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--branco-guide);
+}
+
+.gd-other-contents-catalog-cards {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding: 0 30px;
+    justify-content: space-between;
+}
+
+.gd-other-contents-catalog-card {
+    position: relative;
+    width: 235px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.gd-other-contents-catalog-social {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 9;
+}
+
+.gd-other-contents-catalog-social img {
+    fill: var(--branco-guide);
+    object-fit: contain !important;
+    width: 20px !important;
+    height: 15px !important;
+    margin-bottom: 5px;
+}
+
+.gd-other-contents-catalog-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 12px;
+    position: absolute;
+    width: 72px;
+    height: 16px;
+    left: 20px;
+    top: 150px;
+    background: rgba(242, 245, 240, 0.5);
+    border-radius: 10px;
+}
+
+.gd-other-contents-catalog-label span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--preto-guide);
+    padding-left: 5px;
+}
+
+.gd-other-contents-catalog-card-review {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    position: absolute;
+    bottom: 40px;
+    align-items: center;
+    left: 20px;
+}
+
+.gd-other-contents-catalog-card-star {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    position: absolute;
+    bottom: 25px;
+    align-items: center;
+    left: 5px;
+}
+
+.gd-other-contents-catalog-card-content {
+    width: 170px;
+    height: 80px;
+    position: absolute;
+    bottom: -20px;
+    left: 24px;
+    
+}
+.gd-other-contents-catalog-card-content p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+ }
