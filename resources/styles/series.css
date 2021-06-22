@@ -1,0 +1,131 @@
+.gd-episodio {
+    width: 100%;
+    height: 420px;
+    min-height: 420px;
+    background: var(--preto-guide);
+    position: relative;
+    padding: 27px 16px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1600px;
+    color: var(--branco-guide);
+}
+
+.gd-episodio h5 {
+    font-size: 20px;
+}
+.gd-episodio-info {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.gd-episodio-status-time {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    color: var(--branco-guide);
+}
+
+.gd-episodio-title {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 17px;
+    color: var(--branco-guide);
+
+}
+.gd-episodio-status{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    z-index: 999999;
+    bottom: 0;
+}
+.gd-episodio-progress {
+    width: 100%;
+    background-color: var(--branco-guide);
+}
+.gd-episodio-bar {
+    height: 5px;
+    background-color: var(--cinza-claro-guide);
+}
+.gd-episodio-social {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 9;
+}
+
+.gd-episodio-social img {
+    fill: var(--branco-guide);
+    object-fit: contain !important;
+    width: 15px !important;
+    height: 15px !important;
+    margin-bottom: 5px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    padding: 20px 0 !important;
+
+}
+.overlay{
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.5);
+  }
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: baseline;
+    width: 20% !important;
+    height: 175px !important;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.swiper-slide img {
+    width: 15%;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 5px;
+}
+.swiper-button-next, .swiper-button-prev {
+    color: var(--preto-guide) !important;
+    top: 30% !important;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+    right: 30px !important;
+    left: auto;
+}
