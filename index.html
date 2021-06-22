@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="./resources/styles/guide.css">
     <title>O Guia Financeiro by Guide.</title>
 </head>
@@ -35,15 +35,30 @@
                 </div>
                 <div class="gd-you-watching-episode">
                     <div class="gd-you-watching-episode-box">
-
+                        <div class="swiper-container">
+                            <div class="gd-title-pagination-swipe">
+                                <h4 class="gd-pagination-swipe-tilte">Episódios desta série</h4>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="https://picsum.photos/id/10/275/170" alt=""></div>
+                                <div class="swiper-slide"><img src="https://picsum.photos/id/11/275/170" alt=""></div>
+                                <div class="swiper-slide"><img src="https://picsum.photos/id/12/275/170" alt=""></div>
+                                <div class="swiper-slide"><img src="https://picsum.photos/id/13/275/170" alt=""></div>
+                                <div class="swiper-slide"><img src="https://picsum.photos/id/14/275/170" alt=""></div>
+                                <div class="swiper-slide"><img src="https://picsum.photos/id/15/275/170" alt=""></div>
+                                <div class="swiper-slide"><img src="https://picsum.photos/id/16/275/170" alt=""></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="gd-sidebar"></div>
     </div>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/node-marquee/dist/cdn/index.min.js"></script>
     <script type="text/javascript" src="./resources/scripts/guide.js"></script>
 </body>

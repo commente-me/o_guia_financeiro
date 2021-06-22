@@ -4,6 +4,7 @@
   background-color: var(--preto-guide);
   display: flex;
   justify-content: center;
+  padding-bottom: 25px;
 }
 .gd-you-watching {
   width: 100%;
