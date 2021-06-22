@@ -1,7 +1,7 @@
 .gd-episodio {
     width: 100%;
-    height: 420px;
-    min-height: 420px;
+    height: 290px;
+    min-height: 290px;
     background: var(--preto-guide);
     position: relative;
     padding: 27px 16px 28px;
