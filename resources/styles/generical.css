@@ -28,7 +28,6 @@
 
 .gd-content-home-education {
   width: 100%;
-  max-width: 1600px;
   height: calc(100% - 60px);
   overflow: hidden;
   overflow-y: scroll;
