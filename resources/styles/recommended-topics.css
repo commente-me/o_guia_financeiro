@@ -1,0 +1,45 @@
+.gd-recommended-topics {
+    width: 100%;
+    background: var(--preto-guide);
+    position: relative;
+    padding: 27px 16px 28px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    color: var(--branco-guide);
+}
+
+.gd-recommended-topics h5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: var(--verde-guide)    
+}
+
+.gd-recommended-topics-card {
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.gd-recommended-topics-card img{
+    width: 100%;
+}
+.gd-recommended-topics-card-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #133A3B;
+    text-align: left;
+}
+
+.gd-recommended-topics-card-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #133A3B;
+}
