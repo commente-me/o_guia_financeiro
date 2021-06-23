@@ -1,10 +1,10 @@
-<svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path fill-rule="evenodd" clip-rule="evenodd"
-        d="M14.0742 16.995L18.3529 12.7163L19.1484 13.5118L14.0742 18.586L9 13.5118L9.79549 12.7163L14.0742 16.995Z"
-        fill="#F2F5F0" />
-    <path fill-rule="evenodd" clip-rule="evenodd"
-        d="M14.6367 5.06262L14.6367 16.9951L13.5117 16.9951L13.5117 5.06262L14.6367 5.06262Z" fill="#F2F5F0" />
-    <path fill-rule="evenodd" clip-rule="evenodd"
-        d="M5.0625 20.2501L5.0625 15.7501L6.1875 15.7501L6.1875 20.2501C6.1875 20.5608 6.43934 20.8126 6.75 20.8126L21.375 20.8126C21.6857 20.8126 21.9375 20.5608 21.9375 20.2501L21.9375 15.7501L23.0625 15.7501L23.0625 20.2501C23.0625 21.1821 22.307 21.9376 21.375 21.9376L6.75 21.9376C5.81802 21.9376 5.0625 21.1821 5.0625 20.2501Z"
-        fill="#F2F5F0" />
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="download" transform="translate(-852 -471)">
+    <rect id="Rectángulo_1" data-name="Rectángulo 1" width="24" height="24" transform="translate(852 471)" fill="#fff" opacity="0"/>
+    <g id="download-2" data-name="download" transform="translate(849.938 469.937)">
+      <path id="Trazado_1" data-name="Trazado 1" d="M14.074,17l4.279-4.279.8.8-5.074,5.074L9,13.512l.8-.8Z" fill="#f2f5f0" fill-rule="evenodd"/>
+      <path id="Trazado_2" data-name="Trazado 2" d="M14.637,5.063V17H13.512V5.063Z" fill="#f2f5f0" fill-rule="evenodd"/>
+      <path id="Trazado_3" data-name="Trazado 3" d="M5.063,20.25v-4.5H6.188v4.5a.562.562,0,0,0,.563.563H21.375a.562.562,0,0,0,.563-.562v-4.5h1.125v4.5a1.687,1.687,0,0,1-1.687,1.688H6.75A1.687,1.687,0,0,1,5.063,20.25Z" fill="#f2f5f0" fill-rule="evenodd"/>
+    </g>
+  </g>
 </svg>

@@ -9,12 +9,8 @@
   background-color: var(--preto-guide);
   display: flex;
   justify-content: center;
-}
-
-@media (max-width: 768px) {
-  .gd-you-watching-episode {
-    padding-left: 15px;
-  }
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .gd-you-watching-episode-box {
@@ -45,7 +41,7 @@
   margin-bottom: 20px;
 }
 
-.swiper-pagination {
+.gd-you-watching-episode-swiper-pagination {
   position: initial;
 }
 
@@ -121,7 +117,7 @@
 @media (max-width: 768px) {
   .gd-you-watching-episode-button-prev,
   .gd-you-watching-episode-button-next,
-  .swiper-pagination {
+  .gd-you-watching-episode-swiper-pagination {
     visibility: hidden;
   }
 }
@@ -133,4 +129,11 @@
 .gd-you-watching-episode-swiper-slide img {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+}
+
+.gd-you-watching-espisode-card-image {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
