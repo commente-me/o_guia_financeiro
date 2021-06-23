@@ -1,4 +1,4 @@
-.swiper-container {
+.gd-you-watching-episode-container {
   width: 100%;
   height: auto;
 }
@@ -9,6 +9,12 @@
   background-color: var(--preto-guide);
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .gd-you-watching-episode {
+    padding-left: 15px;
+  }
 }
 
 .gd-you-watching-episode-box {
@@ -67,20 +73,19 @@
   font-size: 20px;
   line-height: 26px;
   color: var(--branco-guide);
-  padding-left: 16px;
 }
 
-.swiper-slide {
+.gd-you-watching-episode-swiper-slide {
   width: 100%;
   height: auto;
 }
 
-.swiper-slide img {
+.gd-you-watching-episode-swiper-slide img {
   width: 100%;
   height: auto;
 }
 
-.swiper-button-prev {
+.gd-you-watching-episode-button-prev {
   left: 0;
   background: linear-gradient(
     90deg,
@@ -89,7 +94,7 @@
   );
 }
 
-.swiper-button-next {
+.gd-you-watching-episode-button-next {
   right: 0;
   background: linear-gradient(
     270deg,
@@ -98,8 +103,8 @@
   );
 }
 
-.swiper-button-prev,
-.swiper-button-next {
+.gd-you-watching-episode-button-prev,
+.gd-you-watching-episode-button-next {
   position: absolute;
   top: initial;
   bottom: 5px;
@@ -114,8 +119,8 @@
 }
 
 @media (max-width: 768px) {
-  .swiper-button-prev,
-  .swiper-button-next,
+  .gd-you-watching-episode-button-prev,
+  .gd-you-watching-episode-button-next,
   .swiper-pagination {
     visibility: hidden;
   }
@@ -125,7 +130,7 @@
   visibility: hidden;
 }
 
-.swiper-slide img {
+.gd-you-watching-episode-swiper-slide img {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }

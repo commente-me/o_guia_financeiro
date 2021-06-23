@@ -5,17 +5,18 @@
   //   pauseOnHover: true,
   // });
 
-  const swiper = new Swiper(".swiper-container", {
-    slidesPerView: 2,
+  const swiper_you_watching = new Swiper(".gd-you-watching-episode-container", {
+    slidesPerView: "auto",
     spaceBetween: 15,
     grabCursor: true,
     freeMode: true,
     pagination: {
-      el: ".swiper-pagination",
+      el: ".gd-you-watching-episode-swiper-pagination",
+      clickable: true,
     },
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".gd-you-watching-episode-button-next",
+      prevEl: ".gd-you-watching-episode-button-prev",
     },
     breakpoints: {
       640: {
