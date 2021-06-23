@@ -122,3 +122,25 @@
   font-family: var(--ff-aktiv);
   margin-top: 22px;
 }
+
+.gd-full-card-watch-button {
+  width: 220px;
+  height: 50px;
+  border: 1px solid var(--verde-guide);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--branco-guide);
+  font-family: var(--ff-aktiv);
+  margin-top: 22px;
+  cursor: pointer;
+}
+
+.gd-full-card-watch-button:hover{
+  color: var(--preto-guide);
+  background: var(--branco-guide);
+}

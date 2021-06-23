@@ -64,10 +64,12 @@
     
 }
 .gd-playlist-card-content p {
+    font-family: var(--ff-aktiv);
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
+
  }
 .gd-playlist-card-position {
     font-style: normal;
@@ -75,18 +77,19 @@
     font-size: 120px;
     line-height: 154px;
     position: absolute;
-    bottom: -25px;
+    bottom: -30px;
     left: -35px;
+    font-family: var(--ff-aktiv);
 }
 .gd-playlist-card-review {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 75%;
+    width: 70%;
     position: absolute;
     bottom: 10px;
     align-items: center;
-    left: 45px;
+    left: 50px;
 }
 
 .gd-playlist-card-episode {

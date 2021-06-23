@@ -19,6 +19,7 @@
   background-color: rgba(19, 58, 59, 0.4);
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .node-marquee__el span {
