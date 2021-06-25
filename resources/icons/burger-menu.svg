@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <g id="burger-menu" transform="translate(86 -26)">
+        <rect id="Retângulo_26" data-name="Retângulo 26" width="24" height="24" transform="translate(-86 26)"
+            fill="#fff" opacity="0" />
+        <g id="burger-menu-2" data-name="burger-menu" transform="translate(-88 24)">
+            <path id="Caminho_4" data-name="Caminho 4" d="M24,7.25H4V6H24Z" fill="#f2f5f0" fill-rule="evenodd" />
+            <path id="Caminho_5" data-name="Caminho 5" d="M24,13.25H4V12H24Z" transform="translate(0 1.5)"
+                fill="#f2f5f0" fill-rule="evenodd" />
+            <path id="Caminho_6" data-name="Caminho 6" d="M24,19.25H4V18H24Z" transform="translate(0 3)" fill="#f2f5f0"
+                fill-rule="evenodd" />
+        </g>
+    </g>
+</svg>

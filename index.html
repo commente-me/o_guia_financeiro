@@ -12,90 +12,81 @@
 
 <body>
     <div class="gd-container">
-        <div class="gd-menu-navigation"></div>
-        <div class="gd-main">
-            <header class="gd-header"></header>
-            <div class="gd-content-home-education">
-                <div class="gd-you-watching-container">
-                    <div class="gd-you-watching">
-                        <h5 class="gd-you-watching-info">Você está assistindo</h5>
-                        <div class="gd-you-watching-content">
-                            <div class="gd-you-watching-content-info">
-                                <small class="gd-you-watching-content-time">1:01 min</small>
-                                <small class="gd-you-watching-content-episode">2/4 episódios</small>
-                            </div>
-                            <h3 class="gd-you-watching-content-title">Comportamento e Finanças</h3>
-                            <div class="gd-you-watching-content-box-subtitle">
-                                <h4 class="gd-you-watching-content-subtitle">com Mayra de Lima e Alejandro Ortiz</h4>
-                                <img src="./resources/images/icons/cards/stars.svg" alt="Rating">
-                            </div>
-                            <a class="gd-you-watching-content-link" href="#">Continuar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="gd-you-watching-episode">
-                    <div class="gd-you-watching-episode-box">
-                        <div class="gd-you-watching-episode-container swiper-container">
-                            <div class="gd-title-pagination-swipe">
-                                <h4 class="gd-pagination-swipe-tilte">Episódios desta série</h4>
-                                <div class="gd-you-watching-episode-swiper-pagination"></div>
-                            </div>
-                            <div class="swiper-button-prev gd-you-watching-episode-button-prev"></div>
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="gd-you-watching-episode-card">
-                                        <img src="https://picsum.photos/id/4/275/170"
-                                            class="gd-you-watching-espisode-card-image" alt="picsum">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="gd-you-watching-episode-card">
-                                        <img src="https://picsum.photos/id/198/275/170"
-                                            class="gd-you-watching-espisode-card-image" alt="picsum">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="gd-you-watching-episode-card">
-                                        <img src="https://picsum.photos/id/200/275/170"
-                                            class="gd-you-watching-espisode-card-image" alt="picsum">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="gd-you-watching-episode-card">
-                                        <img src="https://picsum.photos/id/345/275/170"
-                                            class="gd-you-watching-espisode-card-image" alt="picsum">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="gd-you-watching-episode-card">
-                                        <img src="https://picsum.photos/id/433/275/170"
-                                            class="gd-you-watching-espisode-card-image" alt="picsum">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="gd-you-watching-episode-card">
-                                        <img src="https://picsum.photos/id/4/275/170"
-                                            class="gd-you-watching-espisode-card-image" alt="picsum">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="gd-you-watching-episode-card">
-                                        <img src="https://picsum.photos/id/9/275/170"
-                                            class="gd-you-watching-espisode-card-image" alt="picsum">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-button-next gd-you-watching-episode-button-next"></div>
-                        </div>
-                    </div>
+        <nav class="gd-nav">
+            <span class="gd-burger-menu-icon">
+                <img src="./resources/icons/burger-menu.svg" alt="Menu Icon">
+            </span>
+            <div class="gd-group-nav">
+                <a href="#" class="gd-nav-icon gd-active-icon" data-text="Home">
+                    <img src="./resources/icons/branco-guide/home.svg" alt="Home Icon">
+                </a>
+                <a href="#" class="gd-nav-icon" data-text="Educacional">
+                    <img src="./resources/icons/verde-guide/learn.svg" alt="Learn Icon">
+                </a>
+                <a href="#" class="gd-nav-icon" data-text="Análise">
+                    <img src="./resources/icons/verde-guide/analitycs.svg" alt="Analytics Icon">
+                </a>
+                <a href="#" class="gd-nav-icon" data-text="Research">
+                    <img src="./resources/icons/verde-guide/research.svg" alt="Research Icon">
+                </a>
+            </div>
+            <div class="gd-group-nav">
+                <a href="#" class="gd-nav-icon" data-text="Mentoria">
+                    <img src="./resources/icons/verde-guide/mentoria.svg" alt="Mentoria Icon">
+                </a>
+                <a href="#" class="gd-nav-icon" data-text="Glossário">
+                    <img src="./resources/icons/verde-guide/glossario.svg" alt="Glossario Icon">
+                </a>
+            </div>
+            <div class="gd-group-nav">
+                <a href="#" class="gd-nav-icon" data-text="Configuração">
+                    <img src="./resources/icons/verde-guide/config.svg" alt="Config Icon">
+                </a>
+                <a href="#" class="gd-nav-icon" data-text="Ajuda">
+                    <img src="./resources/icons/verde-guide/ajuda.svg" alt="Ajuda Icon">
+                </a>
+            </div>
+        </nav>
+        <header class="gd-header">
+            <div class="gd-group-left">
+                <span class="gd-burger-menu-icon gd-burger-menu-mobile">
+                    <img src="./resources/icons/burger-menu.svg" alt="Menu Icon">
+                </span>
+                <h1 class="gd-logo-header">
+                    <a href="/">
+                        <img src="./resources/images/guide_brand_top.svg" alt="O Guia Financeiro by Guide.">
+                    </a>
+                </h1>
+                <div class="gd-welcome">
+                    <h6 class="gd-data">Terça-feira - 20/04/2021</h6>
+                    <h5 class="gd-ola">Bom dia, Fulano!</h5>
                 </div>
             </div>
+            <div class="gd-group-right">
+                <nav class="gd-nav-header">
+                    <a href="#" class="gd-search-icon">
+                        <img src="./resources/icons/branco-guide/search.svg" alt="">
+                    </a>
+                    <a href="#" class="gd-bookmark-icon">
+                        <img src="./resources/icons/branco-guide/bookmark.svg" alt="">
+                    </a>
+                    <a href="#" class="gd-notication-icon">
+                        <img src="./resources/icons/branco-guide/notification.svg" alt="">
+                    </a>
+                    <a href="#" class="gd-user-login-icon">
+                        <img src="./resources/icons/branco-guide/user-login.svg" alt="">
+                    </a>
+                </nav>
+                <div class="gd-fique-ligado">
+                    <img src="./resources/icons/arrow-fique-ligado.svg" alt="Fique Atualizado Arrow">
+                    <h6 class="gd-fique-ligado-title">Fique<br />Atualizado</h6>
+                </div>
+            </div>
+        </header>
+        <div class="gd-content">
+            <article></article>
         </div>
-        <div class="gd-sidebar"></div>
-    </div>
-    <script type="text/javascript" src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/node-marquee/dist/cdn/index.min.js"></script>
-    <script type="text/javascript" src="./resources/scripts/guide.js"></script>
+        <div>
 </body>
 
 </html>

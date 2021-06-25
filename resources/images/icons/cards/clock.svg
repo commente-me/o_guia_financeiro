@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <g id="clock" transform="translate(-852 -442)">
-    <g id="icon" transform="translate(854.5 444.5)">
-      <circle id="Elipse_1" data-name="Elipse 1" cx="9" cy="9" r="9" transform="translate(0.5 0.5)" fill="none" stroke="#f2f5f0" stroke-width="1"/>
-      <path id="Trazado_4" data-name="Trazado 4" d="M12.114,11.887,8,9.144V2.287" transform="translate(1.5 0.357)" fill="none" stroke="#f2f5f0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-    </g>
-    <rect id="Rectángulo_2" data-name="Rectángulo 2" width="24" height="24" transform="translate(852 442)" fill="#fff" opacity="0"/>
-  </g>
-</svg>

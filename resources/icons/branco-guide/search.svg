@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <g id="search-icon" transform="translate(-1570 -10)">
+        <rect id="Retângulo_4" data-name="Retângulo 4" width="40" height="40" transform="translate(1570 10)" fill="#fff"
+            opacity="0" />
+        <path id="search"
+            d="M14.065,14.065a5.31,5.31,0,1,0-7.51,0A5.31,5.31,0,0,0,14.065,14.065ZM15,16.277,16.277,15l3.459,3.459a.9.9,0,0,1-1.275,1.275Zm-.23-10.429a6.31,6.31,0,1,1-8.924,0A6.31,6.31,0,0,1,14.772,5.848Z"
+            transform="translate(1578 18)" fill="#f2f5f0" fill-rule="evenodd" />
+    </g>
+</svg>

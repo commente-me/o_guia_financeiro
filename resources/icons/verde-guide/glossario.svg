@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <g id="Grupo_5" data-name="Grupo 5" transform="translate(94 -270)" opacity="0.3">
+        <rect id="Retângulo_22" data-name="Retângulo 22" width="24" height="24" transform="translate(-94 270)"
+            fill="#f2f5f0" opacity="0" />
+        <g id="field-file" transform="translate(-95.71 268.288)">
+            <path id="Caminho_9" data-name="Caminho 9"
+                d="M12.272,3.712h6.492a2.129,2.129,0,0,1,2.124,2.137V21.574a2.129,2.129,0,0,1-2.124,2.138H7.834A2.129,2.129,0,0,1,5.71,21.574V10.331Zm.5,1.207-5.858,5.91V21.574a.922.922,0,0,0,.918.931h10.93a.922.922,0,0,0,.918-.931V5.849a.922.922,0,0,0-.918-.931Z"
+                transform="translate(0)" fill="#f2f5f0" fill-rule="evenodd" />
+            <path id="Caminho_10" data-name="Caminho 10"
+                d="M11.807,8.937V4.212h1.207V8.937a2.1,2.1,0,0,1-2.151,2.117H6.21V9.848H10.9A.89.89,0,0,0,11.807,8.937Z"
+                transform="translate(0.103 0.103)" fill="#f2f5f0" fill-rule="evenodd" />
+            <path id="Caminho_11" data-name="Caminho 11" d="M8.5,11.5h8.446" transform="translate(0.576 1.609)"
+                fill="none" stroke="#f2f5f0" stroke-width="1" />
+            <path id="Caminho_12" data-name="Caminho 12" d="M8.5,14h8.446" transform="translate(0.576 2.125)"
+                fill="none" stroke="#f2f5f0" stroke-width="1" />
+            <path id="Caminho_13" data-name="Caminho 13" d="M8.5,16.6h8.446" transform="translate(0.576 2.662)"
+                fill="none" stroke="#f2f5f0" stroke-width="1" />
+        </g>
+    </g>
+</svg>

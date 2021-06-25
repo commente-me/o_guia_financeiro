@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="user-login-icon" transform="translate(-1690 -10)" opacity="0.3">
+    <rect id="Retângulo_7" data-name="Retângulo 7" width="40" height="40" transform="translate(1690 10)" fill="#f2f5f0"
+      opacity="0" />
+    <path id="user"
+      d="M11.618,4.441a3.294,3.294,0,1,0,3.294,3.294A3.294,3.294,0,0,0,11.618,4.441ZM7.382,7.735a4.235,4.235,0,1,1,4.235,4.235A4.235,4.235,0,0,1,7.382,7.735ZM5.5,15.264a3.294,3.294,0,0,1,3.294-3.294v.941a2.352,2.352,0,0,0-2.352,2.352v3.295H16.794V15.264a2.353,2.353,0,0,0-2.352-2.352v-.941a3.294,3.294,0,0,1,3.294,3.294V19.5H5.5Z"
+      transform="translate(1698.5 18.5)" fill="#f2f5f0" fill-rule="evenodd" />
+  </g>
+</svg>
