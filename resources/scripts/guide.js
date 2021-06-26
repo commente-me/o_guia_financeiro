@@ -22,9 +22,9 @@ const fiqueLigado = {
 };
 
 (async () => {
-	// nodeMarquee({
-	//   selector: "#marquee",
-	//   speed: 1,
-	//   pauseOnHover: true,
-	// });
+	nodeMarquee({
+		selector: ".gd-stock-marquee-container",
+		speed: 1,
+		pauseOnHover: true,
+	});
 })();

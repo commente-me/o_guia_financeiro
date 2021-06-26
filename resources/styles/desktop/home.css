@@ -1,0 +1,83 @@
+.gd-research-menu {
+	width: 100%;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--vermelho-guide);
+}
+
+.gd-research-menu-container {
+	width: 100%;
+	max-width: 1220px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+}
+
+.gd-research-menu-icon {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	font-family: var(--ff-aktiv);
+	color: var(--branco-guide);
+}
+
+.gd-research-menu-icon-activo {
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 8px 16px;
+	border-radius: 8px;
+}
+
+.gd-research-menu-icon:not(:last-of-type) {
+	margin-right: 20px;
+}
+
+.gd-stock-marquee {
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.gd-stock-marquee-container {
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.gd-stock {
+	margin-right: 50px;
+}
+
+.gd-stock i {
+	margin-left: 10px;
+}
+
+.gd-stock-company {
+	font-weight: bold;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 14px;
+	color: var(--cinza-guide);
+}
+.gd-stock-amount {
+	font-weight: normal;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 14px;
+}
+.gd-stock-percent {
+	font-weight: normal;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 14px;
+}
+
+.gd-percent-up {
+	color: var(--vermelho-guide);
+}
+.gd-percent-down {
+	color: var(--verde-guide);
+}

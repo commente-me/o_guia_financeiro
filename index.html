@@ -30,15 +30,15 @@
 					</span>
 					<h3 class="gd-nav-title">Aprendizagem</h3>
 				</a>
-				<a href="#" class="gd-floating-menu-icon">
+				<a href="#" class="gd-floating-menu-icon gd-floating-active-icon">
 					<span class="gd-floating-icon">
-						<img src="./resources/icons/verde-guide/analitycs.svg" alt="Análise Icon">
+						<img src="./resources/icons/branco-guide/analitycs.svg" alt="Análise Icon">
 					</span>
 					<h3 class="gd-nav-title">Análises</h3>
 				</a>
-				<a href="#" class="gd-floating-menu-icon gd-floating-active-icon">
+				<a href="#" class="gd-floating-menu-icon">
 					<span class="gd-floating-icon">
-						<img src="./resources/icons/branco-guide/research.svg" alt="Notícias Icon">
+						<img src="./resources/icons/verde-guide/research.svg" alt="Notícias Icon">
 					</span>
 					<h3 class="gd-nav-title">Notícias</h3>
 				</a>
@@ -79,11 +79,11 @@
 				<a href="#" class="gd-nav-icon" data-text="Aprendizagem">
 					<img src="./resources/icons/verde-guide/learn.svg" alt="Learn Icon">
 				</a>
-				<a href="#" class="gd-nav-icon" data-text="Análise">
-					<img src="./resources/icons/verde-guide/analitycs.svg" alt="Analytics Icon">
+				<a href="#" class="gd-nav-icon gd-active-icon" data-text="Análise">
+					<img src="./resources/icons/branco-guide/analitycs.svg" alt="Analytics Icon">
 				</a>
-				<a href="#" class="gd-nav-icon gd-active-icon" data-text="Notícias">
-					<img src="./resources/icons/branco-guide/research.svg" alt="Notícias Icon">
+				<a href="#" class="gd-nav-icon" data-text="Notícias">
+					<img src="./resources/icons/verde-guide/research.svg" alt="Notícias Icon">
 				</a>
 			</div>
 			<div class="gd-group-nav">
@@ -140,7 +140,44 @@
 			</div>
 		</header>
 		<div class="gd-content">
-			<article></article>
+			<div class="gd-research-menu">
+				<nav class="gd-research-menu-container">
+					<a href="#" class="gd-research-menu-icon gd-research-menu-icon-activo">Início</a>
+					<a href="#" class="gd-research-menu-icon">Política</a>
+					<a href="#" class="gd-research-menu-icon">Economica</a>
+					<a href="#" class="gd-research-menu-icon">Carteiras recomendadas <img src="./resources/icons/chevron-down.svg"
+							alt="Chevron Down"></a>
+					<a href="#" class="gd-research-menu-icon">Ações <img src="./resources/icons/chevron-down.svg"
+							alt="Chevron Down"></a>
+					<a href="#" class="gd-research-menu-icon">Fundos imobiliários <img src="./resources/icons/chevron-down.svg"
+							alt="Chevron Down"></a>
+				</nav>
+			</div>
+			<div class="gd-stock-marquee">
+				<div class="gd-stock-marquee-container">
+					<span class="gd-stock">
+						<i class="gd-stock-company">MGLU3</i>
+						<i class="gd-stock-amount">R$ 21,75</i>
+						<i class="gd-stock-percent gd-percent-down">
+							<img src="./resources/icons/arrow-stock-up.svg" alt="Stock Down"> -1,76%
+						</i>
+					</span>
+					<span class="gd-stock">
+						<i class="gd-stock-company">IPSA3</i>
+						<i class="gd-stock-amount">R$ 21,75</i>
+						<i class="gd-stock-percent gd-percent-up">
+							<img src="./resources/icons/arrow-stock-down.svg" alt="Stock Up"> 0,37%
+						</i>
+					</span>
+					<span class="gd-stock">
+						<i class="gd-stock-company">JHSF3</i>
+						<i class="gd-stock-amount">R$ 6,85</i>
+						<i class="gd-stock-percent gd-percent-up">
+							<img src="./resources/icons/arrow-stock-down.svg" alt="Stock Up"> 0,37%
+						</i>
+					</span>
+				</div>
+			</div>
 		</div>
 		<div class="gd-fique-atualizado-container">
 			<span class="gd-close-fique-atualizado-icon" onclick="fiqueLigado.close()">
@@ -189,6 +226,7 @@
 			</div>
 		</div>
 	</div>
+	<script src="https://cdn.jsdelivr.net/npm/node-marquee/dist/cdn/index.min.js"></script>
 	<script src="./resources/scripts/guide.js"></script>
 </body>
 

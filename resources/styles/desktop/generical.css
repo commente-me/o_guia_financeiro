@@ -28,7 +28,3 @@
 	background-color: var(--branco-guide);
 	overflow: auto;
 }
-
-article {
-	height: 1000px;
-}
