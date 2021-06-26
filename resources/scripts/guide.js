@@ -14,7 +14,7 @@ const menu = {
 const fiqueLigado = {
 	fiqueLigadoMenu: document.querySelector(".gd-fique-atualizado-container"),
 	open: () => {
-		fiqueLigado.fiqueLigadoMenu.style.width = "190px";
+		fiqueLigado.fiqueLigadoMenu.style.width = "240px";
 	},
 	close: () => {
 		fiqueLigado.fiqueLigadoMenu.style.width = 0;
