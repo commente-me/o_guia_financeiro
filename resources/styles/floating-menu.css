@@ -1,5 +1,5 @@
 .gd-floating-menu {
-	width: 295px;
+	width: 0;
 	height: 100%;
 	position: absolute;
 	background-color: var(--cinza-guide);
@@ -7,8 +7,8 @@
 	left: 0;
 	display: flex;
 	flex-direction: column;
-	z-index: 2;
-	transition: 0.5s;
+	z-index: 3;
+	transition: width 0.5s;
 	overflow-x: hidden;
 }
 

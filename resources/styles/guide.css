@@ -8,5 +8,6 @@
 @import "./desktop/header.css" (min-width: 900px);
 
 @import "./floating-menu.css";
+@import "./fique-atualizado.css";
 @import "./updates.css";
 @import "./home.css";

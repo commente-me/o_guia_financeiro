@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<div class="gd-blackout"></div>
+	<div class="gd-blackout" onclick="menu.close()"></div>
 	<div class="gd-container">
 		<nav class="gd-floating-menu">
 			<span class="gd-close-menu-icon" onclick="menu.close()">
@@ -133,7 +133,7 @@
 						<img src="./resources/icons/branco-guide/user-login.svg" alt="">
 					</a>
 				</nav>
-				<div class="gd-fique-ligado">
+				<div class="gd-fique-ligado" onclick="fiqueLigado.open()">
 					<img src="./resources/icons/arrow-fique-ligado.svg" alt="Fique Atualizado Arrow">
 					<h6 class="gd-fique-ligado-title">Fique<br />Atualizado</h6>
 				</div>
@@ -141,6 +141,12 @@
 		</header>
 		<div class="gd-content">
 			<article></article>
+		</div>
+		<div class="gd-fique-atualizado-container">
+			<span class="gd-close-fique-atualizado-icon" onclick="fiqueLigado.close()">
+				<img src="./resources/icons/arrow-fique-ligado.svg" alt="Fique Atualizado Arrow">
+				<h6 class="gd-fique-ligado-title">Fique<br />Atualizado</h6>
+			</span>
 		</div>
 	</div>
 	<script src="./resources/scripts/guide.js"></script>

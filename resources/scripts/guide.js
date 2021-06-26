@@ -11,6 +11,16 @@ const menu = {
 	},
 };
 
+const fiqueLigado = {
+	fiqueLigadoMenu: document.querySelector(".gd-fique-atualizado-container"),
+	open: () => {
+		fiqueLigado.fiqueLigadoMenu.style.width = "190px";
+	},
+	close: () => {
+		fiqueLigado.fiqueLigadoMenu.style.width = 0;
+	},
+};
+
 (async () => {
 	// nodeMarquee({
 	//   selector: "#marquee",
