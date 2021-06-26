@@ -2,91 +2,148 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-    <link rel="stylesheet" href="./resources/styles/guide.css">
-    <title>O Guia Financeiro by Guide.</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+	<link rel="stylesheet" href="./resources/styles/guide.css">
+	<title>O Guia Financeiro by Guide.</title>
 </head>
 
 <body>
-    <div class="gd-container">
-        <nav class="gd-nav">
-            <span class="gd-burger-menu-icon">
-                <img src="./resources/icons/burger-menu.svg" alt="Menu Icon">
-            </span>
-            <div class="gd-group-nav">
-                <a href="#" class="gd-nav-icon gd-active-icon" data-text="Home">
-                    <img src="./resources/icons/branco-guide/home.svg" alt="Home Icon">
-                </a>
-                <a href="#" class="gd-nav-icon" data-text="Educacional">
-                    <img src="./resources/icons/verde-guide/learn.svg" alt="Learn Icon">
-                </a>
-                <a href="#" class="gd-nav-icon" data-text="Análise">
-                    <img src="./resources/icons/verde-guide/analitycs.svg" alt="Analytics Icon">
-                </a>
-                <a href="#" class="gd-nav-icon" data-text="Research">
-                    <img src="./resources/icons/verde-guide/research.svg" alt="Research Icon">
-                </a>
-            </div>
-            <div class="gd-group-nav">
-                <a href="#" class="gd-nav-icon" data-text="Mentoria">
-                    <img src="./resources/icons/verde-guide/mentoria.svg" alt="Mentoria Icon">
-                </a>
-                <a href="#" class="gd-nav-icon" data-text="Glossário">
-                    <img src="./resources/icons/verde-guide/glossario.svg" alt="Glossario Icon">
-                </a>
-            </div>
-            <div class="gd-group-nav">
-                <a href="#" class="gd-nav-icon" data-text="Configuração">
-                    <img src="./resources/icons/verde-guide/config.svg" alt="Config Icon">
-                </a>
-                <a href="#" class="gd-nav-icon" data-text="Ajuda">
-                    <img src="./resources/icons/verde-guide/ajuda.svg" alt="Ajuda Icon">
-                </a>
-            </div>
-        </nav>
-        <header class="gd-header">
-            <div class="gd-group-left">
-                <span class="gd-burger-menu-icon gd-burger-menu-mobile">
-                    <img src="./resources/icons/burger-menu.svg" alt="Menu Icon">
-                </span>
-                <h1 class="gd-logo-header">
-                    <a href="/">
-                        <img src="./resources/images/guide_brand_top.svg" alt="O Guia Financeiro by Guide.">
-                    </a>
-                </h1>
-                <div class="gd-welcome">
-                    <h6 class="gd-data">Terça-feira - 20/04/2021</h6>
-                    <h5 class="gd-ola">Bom dia, Fulano!</h5>
-                </div>
-            </div>
-            <div class="gd-group-right">
-                <nav class="gd-nav-header">
-                    <a href="#" class="gd-search-icon">
-                        <img src="./resources/icons/branco-guide/search.svg" alt="">
-                    </a>
-                    <a href="#" class="gd-bookmark-icon">
-                        <img src="./resources/icons/branco-guide/bookmark.svg" alt="">
-                    </a>
-                    <a href="#" class="gd-notication-icon">
-                        <img src="./resources/icons/branco-guide/notification.svg" alt="">
-                    </a>
-                    <a href="#" class="gd-user-login-icon">
-                        <img src="./resources/icons/branco-guide/user-login.svg" alt="">
-                    </a>
-                </nav>
-                <div class="gd-fique-ligado">
-                    <img src="./resources/icons/arrow-fique-ligado.svg" alt="Fique Atualizado Arrow">
-                    <h6 class="gd-fique-ligado-title">Fique<br />Atualizado</h6>
-                </div>
-            </div>
-        </header>
-        <div class="gd-content">
-            <article></article>
-        </div>
-        <div>
+	<div class="gd-blackout"></div>
+	<div class="gd-container">
+		<nav class="gd-floating-menu">
+			<span class="gd-close-menu-icon" onclick="menu.close()">
+				<img src="./resources/icons/branco-guide/close-menu.svg" alt="Close Menu Icon">
+			</span>
+			<div class="gd-floating-group-menu">
+				<a href="#" class="gd-floating-menu-icon">
+					<span class="gd-floating-icon">
+						<img src="./resources/icons/verde-guide/home.svg" alt="Home Icon">
+					</span>
+					<h3 class="gd-nav-title">Home</h3>
+				</a>
+				<a href="#" class="gd-floating-menu-icon">
+					<span class="gd-floating-icon">
+						<img src="./resources/icons/verde-guide/learn.svg" alt="Educacional Icon">
+					</span>
+					<h3 class="gd-nav-title">Aprendizagem</h3>
+				</a>
+				<a href="#" class="gd-floating-menu-icon">
+					<span class="gd-floating-icon">
+						<img src="./resources/icons/verde-guide/analitycs.svg" alt="Análise Icon">
+					</span>
+					<h3 class="gd-nav-title">Análises</h3>
+				</a>
+				<a href="#" class="gd-floating-menu-icon gd-floating-active-icon">
+					<span class="gd-floating-icon">
+						<img src="./resources/icons/branco-guide/research.svg" alt="Notícias Icon">
+					</span>
+					<h3 class="gd-nav-title">Notícias</h3>
+				</a>
+			</div>
+			<div class="gd-floating-group-menu">
+				<a href="#" class="gd-floating-menu-icon">
+					<span class="gd-floating-icon">
+						<img src="./resources/icons/verde-guide/mentoria.svg" alt="Mentoria Icon">
+					</span>
+					<h3 class="gd-nav-title">Mentoria</h3>
+				</a>
+				<a href="#" class="gd-floating-menu-icon">
+					<span class="gd-floating-icon"><img src="./resources/icons/verde-guide/glossario.svg"
+							alt="Glossario Icon"></span>
+					<h3 class="gd-nav-title">Glossário</h3>
+				</a>
+			</div>
+			<div class="gd-floating-group-menu">
+				<a href="#" class="gd-floating-menu-icon">
+					<span class="gd-floating-icon"><img src="./resources/icons/verde-guide/config.svg"
+							alt="Configuração Icon"></span>
+					<h3 class="gd-nav-title">Configuração</h3>
+				</a>
+				<a href="#" class="gd-floating-menu-icon">
+					<span class="gd-floating-icon"><img src="./resources/icons/verde-guide/ajuda.svg" alt="Ajuda Icon"></span>
+					<h3 class="gd-nav-title">Ajuda</h3>
+				</a>
+			</div>
+		</nav>
+		<nav class="gd-nav">
+			<span class="gd-burger-menu-icon" onclick="menu.open()">
+				<img src="./resources/icons/burger-menu.svg" alt="Menu Icon">
+			</span>
+			<div class="gd-group-nav">
+				<a href="#" class="gd-nav-icon" data-text="Home">
+					<img src="./resources/icons/verde-guide/home.svg" alt="Home Icon">
+				</a>
+				<a href="#" class="gd-nav-icon" data-text="Aprendizagem">
+					<img src="./resources/icons/verde-guide/learn.svg" alt="Learn Icon">
+				</a>
+				<a href="#" class="gd-nav-icon" data-text="Análise">
+					<img src="./resources/icons/verde-guide/analitycs.svg" alt="Analytics Icon">
+				</a>
+				<a href="#" class="gd-nav-icon gd-active-icon" data-text="Notícias">
+					<img src="./resources/icons/branco-guide/research.svg" alt="Notícias Icon">
+				</a>
+			</div>
+			<div class="gd-group-nav">
+				<a href="#" class="gd-nav-icon" data-text="Mentoria">
+					<img src="./resources/icons/verde-guide/mentoria.svg" alt="Mentoria Icon">
+				</a>
+				<a href="#" class="gd-nav-icon" data-text="Glossário">
+					<img src="./resources/icons/verde-guide/glossario.svg" alt="Glossario Icon">
+				</a>
+			</div>
+			<div class="gd-group-nav">
+				<a href="#" class="gd-nav-icon" data-text="Configuração">
+					<img src="./resources/icons/verde-guide/config.svg" alt="Config Icon">
+				</a>
+				<a href="#" class="gd-nav-icon" data-text="Ajuda">
+					<img src="./resources/icons/verde-guide/ajuda.svg" alt="Ajuda Icon">
+				</a>
+			</div>
+		</nav>
+		<header class="gd-header">
+			<div class="gd-group-left">
+				<span class="gd-burger-menu-icon gd-burger-menu-mobile">
+					<img src="./resources/icons/burger-menu.svg" alt="Menu Icon">
+				</span>
+				<h1 class="gd-logo-header">
+					<a href="/">
+						<img src="./resources/images/guide_brand_top.svg" alt="O Guia Financeiro by Guide.">
+					</a>
+				</h1>
+				<div class="gd-welcome">
+					<h6 class="gd-data">Terça-feira - 20/04/2021</h6>
+					<h5 class="gd-ola">Bom dia, Fulano!</h5>
+				</div>
+			</div>
+			<div class="gd-group-right">
+				<nav class="gd-nav-header">
+					<a href="#" class="gd-search-icon">
+						<img src="./resources/icons/branco-guide/search.svg" alt="">
+					</a>
+					<a href="#" class="gd-bookmark-icon">
+						<img src="./resources/icons/branco-guide/bookmark.svg" alt="">
+					</a>
+					<a href="#" class="gd-notication-icon">
+						<img src="./resources/icons/branco-guide/notification.svg" alt="">
+					</a>
+					<a href="#" class="gd-user-login-icon">
+						<img src="./resources/icons/branco-guide/user-login.svg" alt="">
+					</a>
+				</nav>
+				<div class="gd-fique-ligado">
+					<img src="./resources/icons/arrow-fique-ligado.svg" alt="Fique Atualizado Arrow">
+					<h6 class="gd-fique-ligado-title">Fique<br />Atualizado</h6>
+				</div>
+			</div>
+		</header>
+		<div class="gd-content">
+			<article></article>
+		</div>
+	</div>
+	<script src="./resources/scripts/guide.js"></script>
 </body>
 
 </html>

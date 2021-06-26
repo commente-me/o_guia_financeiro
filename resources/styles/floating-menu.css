@@ -1,0 +1,70 @@
+.gd-floating-menu {
+	width: 295px;
+	height: 100%;
+	position: absolute;
+	background-color: var(--cinza-guide);
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	z-index: 2;
+	transition: 0.5s;
+	overflow-x: hidden;
+}
+
+.gd-close-menu-icon {
+	width: 45px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.gd-floating-menu-icon {
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	color: rgba(242, 245, 240, 0.2);
+	margin-bottom: 20px;
+}
+
+.gd-floating-active-icon {
+	color: var(--branco-guide);
+}
+
+.gd-floating-group-menu:first-of-type {
+	margin-top: 40px;
+}
+
+.gd-floating-group-menu {
+	width: 295px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.gd-floating-group-menu::after {
+	content: "";
+	width: 55%;
+	height: 2px;
+	background-color: var(--verde-guide);
+	display: inline-block;
+	margin-top: 10px;
+	opacity: 0.3;
+}
+
+.gd-floating-icon {
+	width: 44px;
+	height: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 25px;
+}
+
+.gd-floating-active-icon {
+	border-right: 2px solid var(--branco-guide);
+}
