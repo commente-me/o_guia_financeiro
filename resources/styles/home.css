@@ -87,6 +87,7 @@
 	font-family: var(--ff-aktiv);
 }
 
+.gd-ritual-diario-podcast .gd-ritual-diario-badge-title,
 .gd-ritual-diario-podcast .gd-ritual-diario-card-position {
 	color: var(--branco-guide);
 }
@@ -161,6 +162,13 @@
 	background-color: var(--branco-fundos);
 	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
 	border: none;
+	position: relative;
+}
+
+.gd-ritual-diario-checkmark {
+	position: absolute;
+	top: 15px;
+	right: 10px;
 }
 
 .gd-ritual-diario-card:first-of-type {
@@ -191,6 +199,19 @@
 	border: 1px solid var(--borders);
 	border-radius: 10px;
 	margin-top: 20px;
+}
+
+.gd-ranking-card:not(:last-of-type) {
+	border-bottom: 1px solid #000;
+}
+
+.gd-ranking-card-action {
+	width: 35px;
+	height: 75px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
 }
 
 .gd-ultimas-analises-container,
@@ -471,4 +492,31 @@
 
 .gd-ritual-diario-podcast .gd-ritual-diario-card-title {
 	color: var(--branco-guide);
+}
+
+.gd-ranking-card-empresas {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.gd-ranking-card-ver-mas {
+	width: 100%;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.gd-ranking-card-ver-mas-link {
+	color: var(--vermelho-guide);
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 12px;
+	font-family: (--ff-aktiv);
+}
+
+.gd-ranking-card-empresas:not(:last-of-type) {
+	border-bottom: 1px solid var(--borders);
 }
