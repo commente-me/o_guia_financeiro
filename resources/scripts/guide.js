@@ -22,7 +22,7 @@ const fiqueLigado = {
 };
 
 // Carrosel (Últimas Análises) para página de Research
-const swiperCarrousel = new Swiper(".swiper-container", {
+new Swiper(".swiper-container", {
 	slidesPerView: "auto",
 	spaceBetween: 15,
 	freeMode: true,
@@ -50,6 +50,4 @@ const swiperCarrousel = new Swiper(".swiper-container", {
 		speed: 1,
 		pauseOnHover: true,
 	});
-
-	swiperCarrousel();
 })();
