@@ -2,10 +2,13 @@
 @import "./colors.css";
 @import "./reset.css";
 @import "./generical.css";
-@import "./generical.css";
 @import "./navigation.css";
+
 @import "./header.css";
+@import "./footer.css";
+
 @import "./home.css";
+
 @import "./stock-research-marquee.css";
 @import "./swiper-cards.css";
 @import "./floating-menu.css";
