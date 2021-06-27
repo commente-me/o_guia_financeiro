@@ -1,6 +1,6 @@
 @import url("https://use.typekit.net/igu2zue.css");
 
 :root {
-  --ff-lato: lato, sans-serif;
-  --ff-aktiv: aktiv-grotesk-extended, sans-serif;
+	--ff-base: lato, sans-serif;
+	--ff-destaque: aktiv-grotesk-extended, sans-serif;
 }

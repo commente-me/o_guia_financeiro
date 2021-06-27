@@ -7,6 +7,9 @@
 	background-color: var(--vermelho-guide);
 	padding-right: 20px;
 	padding-left: 20px;
+	position: sticky;
+	top: 0;
+	z-index: 2;
 }
 
 .gd-research-menu-container {
@@ -21,8 +24,26 @@
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 18px;
-	font-family: var(--ff-aktiv);
+	font-family: var(--ff-destaque);
 	color: var(--branco-guide);
+	position: relative;
+}
+
+.gd-research-submenu {
+	width: 100%;
+	max-width: 240px;
+	min-width: 230px;
+	height: 300px;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.15);
+	border-radius: 0px 0px 8px 8px;
+	background-color: var(--vermelho-guide);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 9999;
 }
 
 .gd-research-menu-icon-activo {
@@ -84,7 +105,7 @@
 	font-size: 38px;
 	line-height: 49px;
 	color: var(--cinza-fundos);
-	font-family: var(--ff-aktiv);
+	font-family: var(--ff-destaque);
 }
 
 .gd-ritual-diario-podcast .gd-ritual-diario-badge-title,
@@ -263,7 +284,7 @@
 	font-size: 14px;
 	line-height: 12px;
 	color: var(--vermelho-guide);
-	font-family: var(--ff-aktiv);
+	font-family: var(--ff-destaque);
 }
 
 .gd-ultimas-analises-swiper-pagination,
@@ -294,7 +315,7 @@
 	font-size: 14px;
 	line-height: 18px;
 	color: var(--verde-guide);
-	font-family: var(--ff-aktiv);
+	font-family: var(--ff-destaque);
 }
 
 .gd-swiper-link:not(:last-of-type) {
@@ -468,7 +489,7 @@
 }
 
 .gd-leia-autores-link {
-	font-family: var(--ff-aktiv);
+	font-family: var(--ff-destaque);
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 12px;
@@ -514,9 +535,67 @@
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 12px;
-	font-family: (--ff-aktiv);
+	font-family: (--ff-destaque);
 }
 
 .gd-ranking-card-empresas:not(:last-of-type) {
 	border-bottom: 1px solid var(--borders);
+}
+
+.gd-ranking-card-empresas-content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.gd-ranking-card-empresas-content-stocks {
+	display: flex;
+	justify-content: space-between;
+}
+
+.gd-ranking-card-empresas-content-brand {
+	font-weight: normal;
+	font-size: 8px;
+	font-family: var(--ff-destaque);
+	line-height: 10px;
+	text-transform: uppercase;
+	color: var(--verde-guide);
+	margin-bottom: 5px;
+}
+
+.gd-ranking-card-empresas-content-sigla {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	color: var(--cinza-fundos);
+	font-family: var(--ff-destaque);
+}
+
+.gd-ranking-card-empresas-content-amount {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.gd-ranking-card-empresas-content-percent {
+	display: flex;
+	align-items: center;
+	color: var(--verde-guide);
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.gd-ranking-card-empresas-content-percent img {
+	margin-right: 5px;
+}
+
+.gd-grid-doble-collunm-container,
+.gd-ultimas-analises-container,
+.gd-recomendacoes-guide-container,
+.gd-leia-autores-container {
+	position: relative;
+	z-index: 0;
 }

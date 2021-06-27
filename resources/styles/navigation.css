@@ -54,7 +54,7 @@
 	justify-content: center;
 	font-size: 10px;
 	font-weight: bold;
-	font-family: var(--ff-aktiv);
+	font-family: var(--ff-destaque);
 	border-radius: 3px;
 	padding: 0 10px;
 	z-index: 20;
