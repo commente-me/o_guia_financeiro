@@ -2,12 +2,12 @@
 @import "./colors.css";
 @import "./reset.css";
 @import "./generical.css";
-
-@import "./desktop/generical.css" (min-width: 900px);
-@import "./desktop/navigation.css" (min-width: 900px);
-@import "./desktop/header.css" (min-width: 900px);
-@import "./desktop/home.css" (min-width: 900px);
-
+@import "./generical.css";
+@import "./navigation.css";
+@import "./header.css";
+@import "./home.css";
+@import "./stock-research-marquee.css";
+@import "./swiper-cards.css";
 @import "./floating-menu.css";
 @import "./fique-atualizado.css";
 @import "./updates.css";

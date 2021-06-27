@@ -1,0 +1,250 @@
+.gd-research-menu {
+	width: 100%;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--vermelho-guide);
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.gd-research-menu-container {
+	width: 100%;
+	max-width: 1220px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+}
+
+.gd-research-menu-icon {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	font-family: var(--ff-aktiv);
+	color: var(--branco-guide);
+}
+
+.gd-research-menu-icon-activo {
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 8px 16px;
+	border-radius: 8px;
+}
+
+.gd-research-menu-icon:not(:last-of-type) {
+	margin-right: 20px;
+}
+
+.gd-grid-doble-collunm-container {
+	width: 100%;
+	max-width: 1220px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 35px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.gd-grid-doble-collunm {
+	width: 100%;
+	min-height: 420px;
+	display: grid;
+	grid-template-columns: 1fr 480px;
+	column-gap: 35px;
+}
+
+.gd-ritual-diario-title,
+.gd-ranking-title {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 26px;
+	color: var(--cinza-guide);
+}
+
+.gd-ritual-diario {
+	display: flex;
+	flex-direction: column;
+}
+
+.gd-ritual-diario-card {
+	width: 100%;
+	height: 130px;
+	border-radius: 10px;
+}
+
+.gd-ritual-diario-podcast {
+	background-color: var(--cinza-fundos);
+}
+
+.gd-ritual-diario-analise {
+	background-color: white;
+	border: 2px solid var(--vermelho-guide);
+}
+
+.gd-ritual-diario-check {
+	background-color: var(--branco-fundos);
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+	border: none;
+}
+
+.gd-ritual-diario-card:first-of-type {
+	margin-top: 20px;
+}
+
+.gd-ritual-diario-card:not(:last-of-type) {
+	margin-bottom: 30px;
+}
+
+.gd-ranking-title-group {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.gd-ranking-filter {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	color: var(--vermelho-guide);
+}
+
+.gd-ranking-card {
+	width: 100%;
+	height: 100%;
+	max-height: 450px;
+	border: 1px solid var(--borders);
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.gd-ultimas-analises-container,
+.gd-recomendacoes-guide-container {
+	width: 100%;
+	max-width: 1220px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+.gd-ultimas-analises-group-title {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.gd-recomendacoes-guide-group-title {
+	width: auto;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.gd-swiper-header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.gd-ultimas-analises-title,
+.gd-recomendacoes-guide-title {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 26px;
+	color: var(--cinza-fundos);
+	margin-right: 25px;
+}
+
+.gd-ultimas-analises-ver-mas,
+.gd-recomendacoes-guide-ver-mas {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 12px;
+	color: var(--vermelho-guide);
+	font-family: var(--ff-aktiv);
+}
+
+.gd-ultimas-analises-swiper-pagination,
+.gd-recomendacoes-guide-swiper-pagination {
+	position: initial;
+}
+
+.gd-ultimas-analises-swiper-pagination .swiper-pagination-bullet,
+.gd-recomendacoes-guide-swiper-pagination .swiper-pagination-bullet {
+	width: 24px;
+	height: 2px;
+	background-color: var(--verde-guide);
+	border-radius: 0;
+}
+
+.gd-ultimas-analises-swiper-pagination
+	.swiper-pagination-bullet:not(:last-of-type),
+.gd-recomendacoes-guide-swiper-pagination
+	.swiper-pagination-bullet:not(:last-of-type) {
+	margin-right: 10px;
+}
+
+.gd-swiper-link {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: var(--verde-guide);
+	font-family: var(--ff-aktiv);
+}
+
+.gd-swiper-link:not(:last-of-type) {
+	margin-right: 15px;
+}
+
+.gd-swiper-link-activo {
+	color: var(--vermelho-guide);
+	border-bottom: 1px solid var(--vermelho-guide);
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.gd-ultimas-analises-container .swiper-button-prev,
+.gd-recomendacoes-guide-container .swiper-button-prev {
+	left: -20px;
+	right: auto;
+	justify-content: flex-start;
+	margin-left: 20px;
+	background: linear-gradient(
+		-270deg,
+		#ffffff 28.95%,
+		rgba(255, 255, 255, 0) 100%
+	);
+}
+
+.gd-ultimas-analises-container .swiper-button-next,
+.gd-recomendacoes-guide-container .swiper-button-next {
+	right: -20px;
+	left: auto;
+	justify-content: flex-end;
+	margin-right: 20px;
+	background: linear-gradient(
+		270deg,
+		#ffffff 28.95%,
+		rgba(255, 255, 255, 0) 100%
+	);
+}
+
+.gd-ultimas-analises-container .swiper-button-prev,
+.gd-ultimas-analises-container .swiper-button-next,
+.gd-recomendacoes-guide-container .swiper-button-prev,
+.gd-recomendacoes-guide-container .swiper-button-next {
+	width: 125px;
+	height: calc(100% - 43px);
+	top: 65px;
+	display: flex;
+	align-items: center;
+	color: var(--preto-guide);
+}
+
+.swiper-button-disabled {
+	visibility: hidden;
+}

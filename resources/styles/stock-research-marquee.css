@@ -1,44 +1,10 @@
-.gd-research-menu {
-	width: 100%;
-	height: 45px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: var(--vermelho-guide);
-}
-
-.gd-research-menu-container {
-	width: 100%;
-	max-width: 1220px;
-	height: 45px;
-	display: flex;
-	align-items: center;
-}
-
-.gd-research-menu-icon {
-	font-weight: bold;
-	font-size: 14px;
-	line-height: 18px;
-	font-family: var(--ff-aktiv);
-	color: var(--branco-guide);
-}
-
-.gd-research-menu-icon-activo {
-	background-color: rgba(255, 255, 255, 0.2);
-	padding: 8px 16px;
-	border-radius: 8px;
-}
-
-.gd-research-menu-icon:not(:last-of-type) {
-	margin-right: 20px;
-}
-
 .gd-stock-marquee {
 	width: 100%;
 	height: 40px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: white;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 

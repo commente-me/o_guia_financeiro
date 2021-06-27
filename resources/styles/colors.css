@@ -1,10 +1,11 @@
 :root {
-  --verde-guide: #068e87;
-  --azul-guide: #8565fc;
-  --vermelho-guide: #c96e2b;
-  --cinza-claro-guide: #d3d1cb;
-  --cinza-guide: #133a3b;
-  --preto-guide: #000000;
-  --branco-guide: #f2f5f0;
-  --cinza-fundos: #103030;
+	--verde-guide: #068e87;
+	--azul-guide: #8565fc;
+	--vermelho-guide: #c96e2b;
+	--cinza-claro-guide: #d3d1cb;
+	--cinza-guide: #133a3b;
+	--preto-guide: #000000;
+	--branco-guide: #f2f5f0;
+	--cinza-fundos: #103030;
+	--borders: #e6e6e6;
 }
