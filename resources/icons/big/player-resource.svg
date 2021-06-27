@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+	<g id="player-research" transform="translate(-1 -1)">
+		<g id="Elipse_3" data-name="Elipse 3" transform="translate(1 1)" fill="none" stroke="#fff" stroke-width="2">
+			<circle cx="35" cy="35" r="35" stroke="none" />
+			<circle cx="35" cy="35" r="34" fill="none" />
+		</g>
+		<circle id="Elipse_4" data-name="Elipse 4" cx="27.451" cy="27.451" r="27.451" transform="translate(8.55 8.549)"
+			fill="#c96e2b" />
+		<path id="Trazado_127" data-name="Trazado 127"
+			d="M30.585,25.314h0L47.648,34.1a2.258,2.258,0,0,1,0,4.111h0L33.569,45.449l-2.982,1.541c-1.708.885-3.921-.193-3.921-2.054V27.369C26.666,25.508,28.877,24.43,30.585,25.314Zm-.909,1.5a.765.765,0,0,0-1.152.558V44.935a.765.765,0,0,0,1.152.558l2.987-1.543,14.077-7.241,0,0a.6.6,0,0,0,0-1.112l-17.06-8.782Z"
+			transform="translate(0.755 0.706)" fill="#fff" fill-rule="evenodd" />
+	</g>
+</svg>

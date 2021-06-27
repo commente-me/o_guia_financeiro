@@ -70,6 +70,82 @@
 	width: 100%;
 	height: 130px;
 	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.gd-ritual-diario-card-position {
+	width: 90px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 49px;
+	color: var(--cinza-fundos);
+	font-family: var(--ff-aktiv);
+}
+
+.gd-ritual-diario-podcast .gd-ritual-diario-card-position {
+	color: var(--branco-guide);
+}
+
+.gd-ritual-diario-card-content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.gd-ritual-diario-card-title {
+	color: var(--cinza-fundos);
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 31px;
+}
+
+.gd-ritual-diario-card-autor-name {
+	color: var(--cinza-fundos);
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.gd-ritual-diario-podcast .gd-ritual-diario-card-autor-name {
+	color: var(--branco-guide);
+}
+
+.gd-ritual-diario-card-autor {
+	display: flex;
+	align-items: center;
+}
+
+.gd-ritual-diario-card-autor-avartar {
+	width: 30px;
+	height: 30px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.gd-ritual-diario-card-autor-avartar img {
+	width: 100%;
+	height: auto;
+	border-radius: 100%;
+}
+
+.gd-ritual-diario-actions {
+	width: 105px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.gd-ritual-diario-analise .gd-ritual-diario-actions,
+.gd-ritual-diario-check .gd-ritual-diario-actions {
+	justify-content: flex-end;
+	padding-bottom: 20px;
 }
 
 .gd-ritual-diario-podcast {
@@ -269,7 +345,6 @@
 
 .gd-leia-autores-slide {
 	border-radius: 10px;
-	background-color: red;
 }
 
 .gd-leia-autores-group-title {
@@ -377,4 +452,23 @@
 	font-size: 14px;
 	line-height: 12px;
 	color: var(--vermelho-guide);
+}
+
+.gd-ritual-diario-badge {
+	display: flex;
+	align-items: center;
+}
+
+.gd-ritual-diario-badge img {
+	margin-right: 3px;
+}
+
+.gd-ritual-diario-badge-title {
+	color: var(--verde-guide);
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.gd-ritual-diario-podcast .gd-ritual-diario-card-title {
+	color: var(--branco-guide);
 }
