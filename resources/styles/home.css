@@ -128,7 +128,7 @@
 }
 
 .gd-ultimas-analises-group-title {
-	width: 100%;
+	width: auto;
 	display: flex;
 	align-items: center;
 	margin-bottom: 10px;
@@ -150,7 +150,8 @@
 }
 
 .gd-ultimas-analises-title,
-.gd-recomendacoes-guide-title {
+.gd-recomendacoes-guide-title,
+.gd-leia-autores-title {
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 26px;
@@ -159,7 +160,8 @@
 }
 
 .gd-ultimas-analises-ver-mas,
-.gd-recomendacoes-guide-ver-mas {
+.gd-recomendacoes-guide-ver-mas,
+.gd-leia-autores-ver-mas {
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 12px;
@@ -168,10 +170,12 @@
 }
 
 .gd-ultimas-analises-swiper-pagination,
-.gd-recomendacoes-guide-swiper-pagination {
+.gd-recomendacoes-guide-swiper-pagination,
+.gd-leia-autores-swiper-pagination {
 	position: initial;
 }
 
+.gd-leia-autores-swiper-pagination .swiper-pagination-bullet,
 .gd-ultimas-analises-swiper-pagination .swiper-pagination-bullet,
 .gd-recomendacoes-guide-swiper-pagination .swiper-pagination-bullet {
 	width: 24px;
@@ -180,6 +184,7 @@
 	border-radius: 0;
 }
 
+.gd-leia-autores-swiper-pagination .swiper-pagination-bullet:not(:last-of-type),
 .gd-ultimas-analises-swiper-pagination
 	.swiper-pagination-bullet:not(:last-of-type),
 .gd-recomendacoes-guide-swiper-pagination
@@ -208,7 +213,8 @@
 }
 
 .gd-ultimas-analises-container .swiper-button-prev,
-.gd-recomendacoes-guide-container .swiper-button-prev {
+.gd-recomendacoes-guide-container .swiper-button-prev,
+.gd-leia-autores-container .swiper-button-prev {
 	left: -20px;
 	right: auto;
 	justify-content: flex-start;
@@ -221,7 +227,8 @@
 }
 
 .gd-ultimas-analises-container .swiper-button-next,
-.gd-recomendacoes-guide-container .swiper-button-next {
+.gd-recomendacoes-guide-container .swiper-button-next,
+.gd-leia-autores-container .swiper-button-next {
 	right: -20px;
 	left: auto;
 	justify-content: flex-end;
@@ -233,6 +240,8 @@
 	);
 }
 
+.gd-leia-autores-container .swiper-button-prev,
+.gd-leia-autores-container .swiper-button-next,
 .gd-ultimas-analises-container .swiper-button-prev,
 .gd-ultimas-analises-container .swiper-button-next,
 .gd-recomendacoes-guide-container .swiper-button-prev,
@@ -247,4 +256,124 @@
 
 .swiper-button-disabled {
 	visibility: hidden;
+}
+
+.gd-leia-autores-container {
+	width: 100%;
+	max-width: 1220px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+.gd-leia-autores-slide {
+	border-radius: 10px;
+	background-color: red;
+}
+
+.gd-leia-autores-group-title {
+	width: auto;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.gd-leia-autores-slide {
+	width: 280px;
+	height: 320px;
+	border-radius: 10px;
+	background-color: var(--preto-guide);
+	position: relative;
+	overflow: hidden;
+}
+
+.gd-leia-autores-image-shadow > img {
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	position: relative;
+}
+
+.gd-leia-autores-image-shadow::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	content: "";
+	width: 100%;
+	height: 185px;
+	background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+	border-radius: 0px 0px 8px 8px;
+}
+
+.gd-leia-autores-slide-zindex {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.gd-leia-autores-follow {
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 25px;
+	margin-top: 20px;
+}
+
+.gd-leia-autores-follow-link {
+	width: 80px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid var(--branco-guide);
+	color: var(--branco-guide);
+	border-radius: 5px;
+}
+
+.gd-leia-autores-autor {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+.gd-leia-autores-autor > img {
+	width: 26px;
+	height: 28px;
+	position: relative;
+}
+
+.gd-leia-autores-name-author {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 26px;
+	color: var(--branco-guide);
+	margin-bottom: 5px;
+}
+
+.gd-leia-autores-cargo {
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 13px;
+	text-transform: uppercase;
+	color: var(--branco-guide);
+	margin-bottom: 25px;
+}
+
+.gd-leia-autores-link {
+	font-family: var(--ff-aktiv);
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 12px;
+	color: var(--vermelho-guide);
 }
