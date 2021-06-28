@@ -726,17 +726,12 @@
 	align-items: center;
 }
 
+.gd-ultimas-analises-title-right,
 .gd-ultimas-analises-title-left {
 	width: 100%;
 	display: flex;
 	align-items: center;
-}
-
-.gd-ultimas-analises-title-right {
-	width: 100%;
-	max-width: 280px;
-	display: flex;
-	align-items: center;
+	margin-bottom: 20px;
 }
 
 .gd-grid-triple-collumn {
