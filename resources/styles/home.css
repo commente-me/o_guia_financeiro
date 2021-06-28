@@ -844,6 +844,85 @@
 	max-width: 280px;
 }
 
+.gd-guia-de-acao-container .gd-guia-de-acao-card-container {
+	width: 100%;
+	height: 315px;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+}
+
+.gd-guia-de-acao-card-header {
+	background-color: #fff;
+}
+
+.gd-guia-de-acao-card-header,
+.gd-guia-de-acao-card-footer {
+	width: 100%;
+	height: calc(100% / 2);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.gd-guia-de-acao-card-title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: var(--cinza-guide);
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.gd-guia-de-acao-card-sigla {
+	font-size: 12px;
+	line-height: 15px;
+	color: var(--verde-guide);
+	font-family: var(--ff-destaque);
+}
+
+.gd-guia-de-acao-comprar {
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 36px;
+	color: var(--verde-guide);
+	text-transform: uppercase;
+}
+
+.gd-guia-de-acao-ver-analises {
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 12px;
+	color: var(--vermelho-guide);
+}
+
+.gd-guia-de-acao-ver-analises img {
+	margin-left: 5px;
+}
+
+.gd-guia-de-acao-update {
+	font-size: 10px;
+	line-height: 10px;
+	color: var(--verde-guide);
+	margin-top: 25px;
+}
+
+.gd-guia-de-acao-recomendacoes-guide {
+	font-size: 10px;
+	line-height: 13px;
+	text-transform: uppercase;
+	color: var(--cinza-guide);
+}
+
 /* Mobile */
 
 @media (max-width: 1024px) {

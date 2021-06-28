@@ -109,9 +109,10 @@
 	margin-right: 5px;
 }
 
-.gd-guia-de-acao-container .gd-swiper-slider-cards {
+.gd-guia-de-acao-container .gd-swiper-card-board {
 	min-height: 320px;
-	border: 2px solid var(--vermelho-guide);
+	height: 100%;
+	border: 2px solid var(--vermelho-guide) !important;
 }
 
 .gd-resultado-do-trimestre .gd-swiper-slider-cards {
