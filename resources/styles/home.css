@@ -41,6 +41,10 @@
 	margin-left: 5px;
 }
 
+.gd-research-menu-icon-activo .gd-research-submenu {
+	top: 37px;
+}
+
 .gd-research-submenu {
 	width: 240px;
 	height: auto;
