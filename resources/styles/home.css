@@ -1028,4 +1028,25 @@
 	.gd-destaque-do-dia-box {
 		margin-top: 110px;
 	}
+
+	.gd-guia-de-acao-title {
+		margin-right: 0;
+	}
+
+	.gd-ultimas-analises-title,
+	.gd-guia-de-acao-title,
+	.gd-ranking-title,
+	.gd-destaque-do-dia-title,
+	.gd-recomendacoes-guide-title {
+		font-size: 14px;
+		margin-right: 10px;
+	}
+	.gd-guia-de-acao-ver-mas,
+	.gd-ultimas-analises-ver-mas,
+	.gd-ranking-filter,
+	.gd-recomendacoes-guide-ver-mas {
+		display: flex;
+		justify-content: space-between;
+		font-size: 12px;
+	}
 }
