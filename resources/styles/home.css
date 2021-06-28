@@ -132,13 +132,137 @@
 	flex-direction: column;
 }
 
-.gd-destaque-do-dia-content {
+.gd-destaque-do-dia,
+.gd-ultima-analises-big-card {
+	position: relative;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.gd-destaque-do-dia {
+	margin-bottom: 0;
+}
+
+.gd-destaque-do-dia-image {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.gd-destaque-do-dia-shadow {
 	width: 100%;
 	height: 100%;
-	max-height: 450px;
-	background-color: var(--verde-guide);
+	display: flex;
+	position: absolute;
+	padding: 25px;
+}
+
+.gd-destaque-do-dia-shadow::before {
+	position: absolute;
+	top: 30px;
+	left: 0;
+	content: "";
+	width: 100%;
+	height: 420px;
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+	z-index: 1;
+}
+
+.gd-destaque-do-dia-content {
+	width: 100%;
+	height: 450px;
 	border-radius: 10px;
 	margin-top: 20px;
+	z-index: 1;
+	position: relative;
+	overflow: hidden;
+}
+
+.gd-destaque-do-dia-box {
+	z-index: 2;
+	position: relative;
+	padding: 25px;
+	margin-top: 180px;
+}
+
+.gd-destaque-do-dia-icons-tag {
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 160%;
+	color: var(--branco-guide);
+	width: 45px;
+	height: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 25px;
+	border: 1px solid var(--branco-guide);
+}
+
+.gd-destaque-do-dia-card-title {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 31px;
+	text-transform: uppercase;
+	color: var(--branco-guide);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.gd-destaque-do-dia-paragraph {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	color: var(--branco-guide);
+}
+
+.gd-destaque-do-dia-autor {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.gd-destaque-do-dia-autor-avartar {
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	border-radius: 100%;
+}
+
+.gd-destaque-do-dia-autor-avartar img {
+	width: 100%;
+	height: auto;
+}
+
+.gd-destaque-do-dia-autor-name {
+	color: var(--branco-guide);
+	font-size: 12px;
+	line-height: 18px;
+	margin-left: 10px;
+}
+
+.gd-destaque-do-dia-icons {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.gd-destaque-do-dia-icons-tags {
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	line-height: 14px;
+	color: var(--branco-guide);
+}
+
+.gd-destaque-do-dia-icons-tags:not(:last-of-type) {
+	margin-right: 10px;
 }
 
 .gd-ritual-diario-card {
@@ -712,6 +836,7 @@
 	justify-content: center;
 	align-items: center;
 	background-color: var(--preto-guide);
+	position: relative;
 }
 
 .gd-ultimas-analises-container .gd-swiper-slider-cards {
@@ -783,5 +908,42 @@
 	}
 	.gd-grid-triple-collumn {
 		flex-direction: column;
+	}
+	.gd-destaque-do-dia-content {
+		margin-bottom: 30px;
+		display: flex;
+		flex-direction: column;
+		align-content: space-between;
+	}
+	.gd-destaque-do-dia-image {
+		width: 100%;
+		height: 100%;
+		min-height: 450px;
+		min-width: 610px;
+	}
+	.gd-ultimas-analises-container {
+		flex-direction: column;
+	}
+
+	.gd-ultimas-analises-container .gd-destaque-do-dia-slider-cards {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.gd-ultima-analises-big-card {
+		margin-left: 0;
+		margin-top: 30px;
+	}
+	.gd-ultimas-analises-single-card {
+		width: 100%;
+		margin-left: 0;
+		max-width: 100%;
+	}
+	.gd-ultimas-analises-single-card .gd-ultimas-analises-title-right {
+		width: 100%;
+	}
+
+	.gd-ultimas-analises-single-card .gd-swiper-slider-cards {
+		width: 100%;
 	}
 }

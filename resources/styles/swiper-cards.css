@@ -118,3 +118,10 @@
 	border: none;
 	min-height: 400px;
 }
+
+@media (max-width: 1024px) {
+	.gd-destaque-do-dia-slider-cards {
+		width: 100%;
+		max-width: 100%;
+	}
+}
