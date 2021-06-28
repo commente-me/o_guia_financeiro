@@ -269,7 +269,7 @@
 	cursor: pointer;
 }
 
-.gd-ultimas-analises-container,
+.gd-guia-de-acao-container,
 .gd-recomendacoes-guide-container {
 	width: 100%;
 	max-width: 1220px;
@@ -281,7 +281,7 @@
 	padding-left: 20px;
 }
 
-.gd-ultimas-analises-group-title {
+.gd-guia-de-acao-group-title {
 	width: auto;
 	display: flex;
 	align-items: center;
@@ -303,7 +303,7 @@
 	margin-bottom: 20px;
 }
 
-.gd-ultimas-analises-title,
+.gd-guia-de-acao-title,
 .gd-recomendacoes-guide-title,
 .gd-leia-autores-title {
 	font-weight: bold;
@@ -313,7 +313,7 @@
 	margin-right: 25px;
 }
 
-.gd-ultimas-analises-ver-mas,
+.gd-guia-de-acao-ver-mas,
 .gd-recomendacoes-guide-ver-mas,
 .gd-leia-autores-ver-mas {
 	font-weight: bold;
@@ -323,14 +323,14 @@
 	font-family: var(--ff-destaque);
 }
 
-.gd-ultimas-analises-swiper-pagination,
+.gd-guia-de-acao-swiper-pagination,
 .gd-recomendacoes-guide-swiper-pagination,
 .gd-leia-autores-swiper-pagination {
 	position: initial;
 }
 
 .gd-leia-autores-swiper-pagination .swiper-pagination-bullet,
-.gd-ultimas-analises-swiper-pagination .swiper-pagination-bullet,
+.gd-guia-de-acao-swiper-pagination .swiper-pagination-bullet,
 .gd-recomendacoes-guide-swiper-pagination .swiper-pagination-bullet {
 	width: 24px;
 	height: 2px;
@@ -339,8 +339,7 @@
 }
 
 .gd-leia-autores-swiper-pagination .swiper-pagination-bullet:not(:last-of-type),
-.gd-ultimas-analises-swiper-pagination
-	.swiper-pagination-bullet:not(:last-of-type),
+.gd-guia-de-acao-swiper-pagination .swiper-pagination-bullet:not(:last-of-type),
 .gd-recomendacoes-guide-swiper-pagination
 	.swiper-pagination-bullet:not(:last-of-type) {
 	margin-right: 10px;
@@ -366,7 +365,7 @@
 	line-height: 18px;
 }
 
-.gd-ultimas-analises-container .swiper-button-prev,
+.gd-guia-de-acao-container .swiper-button-prev,
 .gd-recomendacoes-guide-container .swiper-button-prev,
 .gd-leia-autores-container .swiper-button-prev {
 	left: -20px;
@@ -380,7 +379,7 @@
 	);
 }
 
-.gd-ultimas-analises-container .swiper-button-next,
+.gd-guia-de-acao-container .swiper-button-next,
 .gd-recomendacoes-guide-container .swiper-button-next,
 .gd-leia-autores-container .swiper-button-next {
 	right: -20px;
@@ -401,8 +400,8 @@
 
 .gd-leia-autores-container .swiper-button-prev,
 .gd-leia-autores-container .swiper-button-next,
-.gd-ultimas-analises-container .swiper-button-prev,
-.gd-ultimas-analises-container .swiper-button-next,
+.gd-guia-de-acao-container .swiper-button-prev,
+.gd-guia-de-acao-container .swiper-button-next,
 .gd-recomendacoes-guide-container .swiper-button-prev,
 .gd-recomendacoes-guide-container .swiper-button-next {
 	width: 125px;
@@ -634,7 +633,7 @@
 }
 
 .gd-grid-doble-collunm-container,
-.gd-ultimas-analises-container,
+.gd-guia-de-acao-container,
 .gd-recomendacoes-guide-container,
 .gd-leia-autores-container {
 	position: relative;
@@ -656,8 +655,8 @@
 
 	.gd-leia-autores-container .swiper-button-prev,
 	.gd-leia-autores-container .swiper-button-next,
-	.gd-ultimas-analises-container .swiper-button-prev,
-	.gd-ultimas-analises-container .swiper-button-next,
+	.gd-guia-de-acao-container .swiper-button-prev,
+	.gd-guia-de-acao-container .swiper-button-next,
 	.gd-recomendacoes-guide-container .swiper-button-prev,
 	.gd-recomendacoes-guide-container .swiper-button-next {
 		height: 100%;
@@ -680,7 +679,7 @@
 
 	.gd-research-menu,
 	.gd-grid-doble-collunm-container,
-	.gd-ultimas-analises-container,
+	.gd-guia-de-acao-container,
 	.gd-recomendacoes-guide-container,
 	.gd-leia-autores-container {
 		padding-right: 10px;
