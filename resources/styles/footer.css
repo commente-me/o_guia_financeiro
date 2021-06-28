@@ -58,8 +58,28 @@
 }
 
 @media (max-width: 1024px) {
+	.gd-rodape-container {
+		height: auto;
+	}
+
 	.gd-rodape-top-content,
 	.gd-rodape-bottom-content {
-		display: none;
+		height: auto;
+	}
+
+	.gd-rodape-top-content > a {
+		margin-top: 30px;
+	}
+
+	.gd-rodape-top-content > nav,
+	.gd-rodape-top-content > a,
+	.gd-rodape-top-content > div {
+		margin-bottom: 30px;
+	}
+
+	.gd-rodape-top-content,
+	.gd-rodape-bottom-content {
+		flex-direction: column;
+		margin-bottom: 30px;
 	}
 }
