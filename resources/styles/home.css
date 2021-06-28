@@ -982,8 +982,8 @@
 	.gd-recomendacoes-guide-title {
 		margin-right: 0;
 	}
-	.gd-recomendacoes-guide-ver-mas {
-		width: 110px;
+	.gd-recomendacoes-guide-ver-mas img {
+		margin-left: 5px;
 	}
 	.gd-grid-triple-collumn {
 		flex-direction: column;
@@ -1048,5 +1048,8 @@
 		display: flex;
 		justify-content: space-between;
 		font-size: 12px;
+	}
+	.gd-recomendacoes-guide-group-title {
+		justify-content: flex-start;
 	}
 }
