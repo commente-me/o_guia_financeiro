@@ -677,4 +677,28 @@
 	.gd-ritual-diario-card-autor-avartar {
 		display: none !important;
 	}
+
+	.gd-research-menu,
+	.gd-grid-doble-collunm-container,
+	.gd-ultimas-analises-container,
+	.gd-recomendacoes-guide-container,
+	.gd-leia-autores-container {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	.gd-swiper-header {
+		display: block;
+	}
+
+	.gd-recomendacoes-guide-group-title {
+		justify-content: space-between;
+	}
+
+	.gd-recomendacoes-guide-title {
+		margin-right: 0;
+	}
+	.gd-recomendacoes-guide-ver-mas {
+		width: 110px;
+	}
 }
