@@ -9,7 +9,7 @@
 	padding-left: 20px;
 	position: sticky;
 	top: 0;
-	z-index: 2;
+	z-index: 3;
 }
 
 .gd-research-menu-container {
@@ -46,7 +46,7 @@
 }
 
 .gd-research-menu-icon-activo .gd-research-submenu {
-	top: 37px;
+	top: 30px;
 }
 
 .gd-research-submenu {
@@ -105,8 +105,8 @@
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 35px;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .gd-grid-doble-collunm {
@@ -185,7 +185,7 @@
 }
 
 .gd-destaque-do-dia-box {
-	z-index: 2;
+	z-index: 1;
 	position: relative;
 	padding: 25px;
 	margin-top: 180px;
@@ -945,5 +945,8 @@
 
 	.gd-ultimas-analises-single-card .gd-swiper-slider-cards {
 		width: 100%;
+	}
+	.gd-destaque-do-dia-box {
+		margin-top: 110px;
 	}
 }

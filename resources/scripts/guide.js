@@ -20,7 +20,7 @@ const fiqueLigado = {
 	},
 	close: () => {
 		fiqueLigado.fiqueLigadoMenu.style.width = 0;
-		fiqueLigado.logoMenu.style.zIndex = 4;
+		fiqueLigado.logoMenu.style.zIndex = 5;
 	},
 };
 
