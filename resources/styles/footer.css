@@ -56,3 +56,10 @@
 .gd-rodape-bottom-content-nav a:not(:last-child) {
 	margin-right: 10px;
 }
+
+@media (max-width: 1024px) {
+	.gd-rodape-top-content,
+	.gd-rodape-bottom-content {
+		display: none;
+	}
+}

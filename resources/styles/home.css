@@ -643,11 +643,38 @@
 
 @media (max-width: 1024px) {
 	.gd-grid-doble-collunm {
-		width: 100%;
-		min-height: 420px;
-		display: grid;
-		grid-template-columns: 1fr;
-		grid-template-rows: repeat(420px);
-		row-gap: 50px;
+		display: flex;
+		flex-direction: column;
+	}
+	.gd-ritual-diario {
+		margin-bottom: 40px;
+	}
+	.swiper-pagination,
+	.gd-swiper-nav {
+		display: none;
+	}
+
+	.gd-leia-autores-container .swiper-button-prev,
+	.gd-leia-autores-container .swiper-button-next,
+	.gd-ultimas-analises-container .swiper-button-prev,
+	.gd-ultimas-analises-container .swiper-button-next,
+	.gd-recomendacoes-guide-container .swiper-button-prev,
+	.gd-recomendacoes-guide-container .swiper-button-next {
+		height: 100%;
+		top: 22px;
+	}
+
+	.gd-research-menu-container {
+		display: none;
+	}
+
+	.gd-ritual-diario-card-title {
+		font-size: 20px;
+	}
+
+	.swiper-button-next,
+	.swiper-button-prev,
+	.gd-ritual-diario-card-autor-avartar {
+		display: none !important;
 	}
 }
