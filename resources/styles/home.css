@@ -677,4 +677,9 @@
 	.gd-ritual-diario-card-autor-avartar {
 		display: none !important;
 	}
+
+	.gd-research-menu {
+		position: relative;
+		top: 0;
+	}
 }

@@ -50,3 +50,9 @@
 .gd-percent-down {
 	color: var(--verde-guide);
 }
+
+@media (max-width: 1024px) {
+	.gd-stock-marquee {
+		position: initial;
+	}
+}
