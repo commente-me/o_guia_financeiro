@@ -108,3 +108,12 @@
 .gd-swiper-slider-cards-icons-tag:not(:last-of-type) img {
 	margin-right: 5px;
 }
+
+.gd-guia-de-acao-container .gd-swiper-slider-cards {
+	min-height: 320px;
+	border: 2px solid var(--vermelho-guide);
+}
+
+.gd-resultado-do-trimestre .gd-swiper-slider-cards {
+	border: none;
+}
