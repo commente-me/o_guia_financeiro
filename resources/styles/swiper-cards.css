@@ -116,4 +116,5 @@
 
 .gd-resultado-do-trimestre .gd-swiper-slider-cards {
 	border: none;
+	min-height: 400px;
 }
