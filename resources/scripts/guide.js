@@ -13,11 +13,14 @@ const menu = {
 
 const fiqueLigado = {
 	fiqueLigadoMenu: document.querySelector(".gd-fique-atualizado-container"),
+	logoMenu: document.querySelector(".gd-logo-header"),
 	open: () => {
 		fiqueLigado.fiqueLigadoMenu.style.width = "240px";
+		fiqueLigado.logoMenu.style.zIndex = 0;
 	},
 	close: () => {
 		fiqueLigado.fiqueLigadoMenu.style.width = 0;
+		fiqueLigado.logoMenu.style.zIndex = 4;
 	},
 };
 
